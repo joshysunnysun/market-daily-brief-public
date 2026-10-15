@@ -1,0 +1,30 @@
+{
+  "date":"2026-10-15",
+  "generatedAt":"13:30 台北時間",
+  "disclaimer":"10/15 三大法人正式買賣超尚未公布；盤中資料不等於法人最終部位。",
+  "marketStats":[
+    {"label":"加權指數","value":"46,965.97","detail":"−1,659.86／−3.41%","direction":"negative"},
+    {"label":"上市漲跌家數","value":"200 ↑ / 820 ↓","detail":"1,085 檔普通股樣本；約 1：4.1","direction":"negative"},
+    {"label":"市場狀態","value":"風險撤退","detail":"科技承壓、金融與電信相對抗跌","direction":"negative"}
+  ],
+  "rotation":[{"name":"2884 玉山金","value":3.17},{"name":"2890 永豐金","value":3.52},{"name":"2412 中華電","value":2.69},{"name":"1216 統一","value":1.66},{"name":"2330 台積電","value":-2.01},{"name":"2454 聯發科","value":-6.93},{"name":"2308 台達電","value":-8.68},{"name":"1301 台塑","value":-8.10},{"name":"1303 南亞","value":-9.89},{"name":"2360 致茂","value":-10.00}],
+  "notes":[
+    {"title":"全球科技同步去槓桿","text":"美國 CPI 年增 3.7% 高於預期、費半跌 4.3%；韓股盤中跌逾 8% 觸發熔斷，日經約跌 5%。"},
+    {"title":"資金偏防禦","text":"玉山金、永豐金、中華電與統一逆勢走強；這更像避險配置，而非風險偏好全面回升。"},
+    {"title":"昨日熱門輪動快速反轉","text":"10/14 流入的塑化、玻纖、PCB 代表股今天多數重挫；單日流入不足以確認趨勢性外資吸籌。"},
+    {"title":"台積電法說為下一個定價點","text":"市場關注 AI 需求、2 奈米、CoWoS、毛利率與資本支出；主要反應通常落在次一交易日。"}
+  ],
+  "marketDecision":"今天是系統性風險撤退日，不是漂亮的「資金流入但股價尚未反映」布局日。先等正式外資數字與隔日盤勢確認，避免以盤中委買賣推論法人承接。",
+  "themes":[
+    {"name":"AI 半導體／先進封裝","status":"事件驅動・觀察","text":"台積電法說將重新定價資本支出與供應鏈需求；短線波動會放大，重點是指引而不是盤中傳聞。"},
+    {"name":"金融／電信／民生","status":"相對強勢・防禦","text":"利率與風險偏好收縮下的資金暫泊區。若大盤止穩後仍強於指數，才有延續性意義。"},
+    {"name":"PCB／玻纖／塑化","status":"高波動・等待驗證","text":"前一日資金熱度未能轉成續漲，代表追價風險仍高；應追蹤連續多日法人與成交量結構。"},
+    {"name":"記憶體","status":"景氣題材・震盪","text":"AI 伺服器與供給紀律仍是長線主軸，但高估值科技股正受利率壓力，短線需和整體風險情緒一起評估。"}
+  ],
+  "sources":[
+    {"label":"證交所即時行情","url":"https://mis.twse.com.tw/stock/index.jsp"},
+    {"label":"三大法人 10/14","url":"https://www.twse.com.tw/rwd/zh/fund/T86?date=20261014&selectType=ALLBUT0999&response=json"},
+    {"label":"台積電 Q3 法說","url":"https://investor.tsmc.com/chinese/quarterly-results/2026/q3"},
+    {"label":"亞洲市場新聞","url":"https://apnews.com/article/e889ad7dee2b7dd959f1b8bc87366914"}
+  ]
+}
