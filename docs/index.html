@@ -3,71 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="台美股盤面、資金訊號、題材與候選股票日報">
-    <title>市場日報｜公開版</title>
+    <meta name="description" content="台美股盤勢、正式籌碼資料、候選條件與互動觀察清單">
+    <title>台美股市場日報</title>
     <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <main class="shell">
       <header class="hero">
-        <div>
-          <p class="eyebrow">PUBLIC MARKET BRIEF</p>
-          <h1>台美股市場日報</h1>
-          <p id="report-meta" class="muted">載入最新公開報告中…</p>
-        </div>
-        <a class="latest-link" href="latest/">最新報告</a>
+        <div class="hero-copy"><p class="eyebrow">PUBLIC MARKET INTELLIGENCE</p><h1>先看結論，再查證據</h1><p id="report-meta" class="muted">載入最新報告中…</p></div>
+        <a class="latest-link" href="latest/">回到最新</a>
       </header>
 
+      <section class="search-shell" aria-labelledby="search-label">
+        <label id="search-label" for="stock-search">搜尋股票代碼或名稱</label>
+        <div class="search-control"><span aria-hidden="true">⌕</span><input id="stock-search" type="search" autocomplete="off" placeholder="例如 2330、台積電、NVDA" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false"></div>
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </section>
+
       <nav class="tabs" aria-label="報告導覽">
-        <button type="button" class="tab active" data-panel="overview" aria-selected="true">總覽</button>
+        <button type="button" class="tab active" data-panel="overview" aria-selected="true">重點總覽</button>
         <button type="button" class="tab" data-panel="tw-market" aria-selected="false">台股</button>
         <button type="button" class="tab" data-panel="us-market" aria-selected="false">美股</button>
-        <button type="button" class="tab" data-panel="candidates" aria-selected="false">候選股票</button>
-        <button type="button" class="tab" data-panel="themes" aria-selected="false">題材</button>
-        <button type="button" class="tab" data-panel="archive" aria-selected="false">歷史報告</button>
+        <button type="button" class="tab" data-panel="candidates" aria-selected="false">候選條件</button>
+        <button type="button" class="tab" data-panel="themes" aria-selected="false">題材雷達</button>
+        <button type="button" class="tab" data-panel="archive" aria-selected="false">歷史</button>
       </nav>
 
       <section id="overview" class="panel active">
-        <div id="market-stats" class="stats" aria-live="polite"></div>
+        <div class="section-heading page-heading"><div><p class="eyebrow">DECISION FIRST</p><h2>今天該知道的三件事</h2></div><p class="muted">每一個結論都能往下展開查看資料品質與候選條件。</p></div>
+        <div id="market-stats" class="stats priority-stats" aria-live="polite"></div>
+        <article id="overview-decision" class="card decision lead-decision"></article>
         <div id="market-status" class="market-status-grid"></div>
         <div id="overview-notes" class="note-grid"></div>
-        <article id="overview-decision" class="card decision"></article>
       </section>
 
       <section id="tw-market" class="panel" hidden>
-        <div class="section-heading page-heading"><div><p class="eyebrow">TAIWAN MARKET</p><h2>台股盤面與資金</h2></div><p id="tw-quality" class="muted"></p></div>
+        <div class="section-heading page-heading"><div><p class="eyebrow">TAIWAN MARKET</p><h2>台股盤面與正式籌碼</h2></div><p id="tw-quality" class="muted"></p></div>
         <div id="tw-stats" class="stats"></div>
-        <article class="card"><div class="section-heading"><div><p class="eyebrow">FLOW SIGNALS</p><h2>法人、融資與代理訊號</h2></div><p class="muted">代理訊號不等同正式法人最終買賣超。</p></div><div id="tw-signals" class="signal-grid"></div></article>
-        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">CAPITAL ROTATION</p><h2>資金輪動代表股</h2></div></div><div id="tw-rotation" class="bar-chart"></div></article>
-        <div id="tw-notes" class="note-grid"></div>
-        <article id="tw-decision" class="card decision"></article>
+        <article class="card"><div class="section-heading"><div><p class="eyebrow">WATCHLIST</p><h2>台股觀察名單</h2></div><p class="muted">點選任一股票查看法人、融資、借券、價格、財報與篩選條件。</p></div><div id="tw-watchlist" class="watchlist-grid"></div></article>
+        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">OFFICIAL FLOWS</p><h2>法人、融資與借券</h2></div></div><div id="tw-signals" class="signal-grid"></div></article>
+        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">RANKING</p><h2>相對強弱排行</h2></div><p class="muted">排行是價格觀察，不等同推薦。</p></div><div id="tw-rotation" class="bar-chart"></div></article>
+        <div id="tw-notes" class="note-grid"></div><article id="tw-decision" class="card decision"></article>
       </section>
 
       <section id="us-market" class="panel" hidden>
-        <div class="section-heading page-heading"><div><p class="eyebrow">UNITED STATES MARKET</p><h2>美股盤面與資金</h2></div><p id="us-quality" class="muted"></p></div>
+        <div class="section-heading page-heading"><div><p class="eyebrow">UNITED STATES MARKET</p><h2>美股盤面與證據</h2></div><p id="us-quality" class="muted"></p></div>
         <div id="us-stats" class="stats"></div>
-        <article class="card"><div class="section-heading"><div><p class="eyebrow">FLOW PROXIES</p><h2>ETF、量價與機構代理訊號</h2></div><p class="muted">美股沒有台灣三大法人同型的每日官方分類。</p></div><div id="us-signals" class="signal-grid"></div></article>
-        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">RELATIVE STRENGTH</p><h2>類股與代表股</h2></div></div><div id="us-rotation" class="bar-chart"></div></article>
-        <div id="us-notes" class="note-grid"></div>
-        <article id="us-decision" class="card decision"></article>
+        <article class="card"><div class="section-heading"><div><p class="eyebrow">WATCHLIST</p><h2>美股觀察名單</h2></div><p class="muted">點選任一股票查看價格、財報、題材、催化劑與篩選條件。</p></div><div id="us-watchlist" class="watchlist-grid"></div></article>
+        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">FLOW PROXIES</p><h2>量價與機構代理訊號</h2></div></div><div id="us-signals" class="signal-grid"></div></article>
+        <article class="card block-gap"><div class="section-heading"><div><p class="eyebrow">RANKING</p><h2>相對強弱排行</h2></div></div><div id="us-rotation" class="bar-chart"></div></article>
+        <div id="us-notes" class="note-grid"></div><article id="us-decision" class="card decision"></article>
       </section>
 
       <section id="candidates" class="panel" hidden>
-        <div class="section-heading page-heading"><div><p class="eyebrow">ACTIONABLE WATCHLIST</p><h2>候選股票與操作條件</h2></div><p class="muted">只有資料與條件完整的標的才列入；空白代表沒有合格候選。</p></div>
+        <div class="section-heading page-heading"><div><p class="eyebrow">EVIDENCE GATE</p><h2>候選股票與完整條件</h2></div><p class="muted">門檻由設定檔管理；必要資料不足時不會硬推股票。</p></div>
         <h3 class="market-label">台股候選</h3><div id="tw-candidates" class="candidate-grid"></div>
         <h3 class="market-label">美股候選</h3><div id="us-candidates" class="candidate-grid"></div>
       </section>
 
-      <section id="themes" class="panel" hidden>
-        <article class="card"><div class="section-heading"><div><p class="eyebrow">THEME RADAR</p><h2>題材階段與市場敘事</h2></div><p class="muted">題材熱度只是觀察層，仍需由正式資料與價格條件確認。</p></div><div id="theme-list" class="theme-grid"></div></article>
-      </section>
+      <section id="themes" class="panel" hidden><article class="card"><div class="section-heading"><div><p class="eyebrow">THEME RADAR</p><h2>題材階段與市場敘事</h2></div><p class="muted">題材熱度只是觀察層，仍需正式資料與價格條件確認。</p></div><div id="theme-list" class="theme-grid"></div></article></section>
+      <section id="archive" class="panel" hidden><article class="card"><div class="section-heading"><div><p class="eyebrow">REPORT ARCHIVE</p><h2>歷史公開報告</h2></div><p class="muted">每個交易日獨立保存。</p></div><div id="archive-list" class="archive-list" aria-live="polite"></div></article></section>
 
-      <section id="archive" class="panel" hidden>
-        <article class="card"><div class="section-heading"><div><p class="eyebrow">REPORT ARCHIVE</p><h2>歷史公開報告</h2></div><p class="muted">每個交易日獨立保存；指定日期可由同一網址查詢。</p></div><div id="archive-list" class="archive-list"></div></article>
-      </section>
-
-      <footer><span>僅供公開資訊整理與個人研究，不構成投資建議。</span><span id="source-links"></span></footer>
+      <footer><span>公開資訊整理，不構成投資建議。</span><span id="source-links"></span></footer>
     </main>
+
+    <dialog id="stock-dialog" class="stock-dialog" aria-labelledby="stock-dialog-title"><div class="dialog-head"><div><p class="eyebrow">STOCK EVIDENCE</p><h2 id="stock-dialog-title">股票明細</h2></div><button type="button" class="dialog-close" aria-label="關閉股票明細">×</button></div><div id="stock-dialog-body"></div></dialog>
     <script src="assets/app.js" defer></script>
   </body>
 </html>

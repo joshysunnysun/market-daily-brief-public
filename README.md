@@ -1,3 +1,3 @@
 # market-daily-brief-public
 
-Public Taiwan and US market briefs. The site uses one index with overview, Taiwan, US, candidate, theme, and archive tabs. Candidate entries appear only when their required evidence and operating conditions are complete. This repository contains market-only data and no private portfolio fields.
+Public Taiwan and US market briefs. The site uses one index with overview, Taiwan, US, candidate, theme, and archive tabs. It supports ticker/name search, clickable rankings and watchlists, a full evidence dialog, and glossary help by pointer hover, keyboard focus, or touch long-press. Candidate entries appear only when all configured evidence and operating conditions are complete. This repository contains public market data only.
