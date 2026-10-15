@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="每日台股盤面、資金輪動與題材觀察">
+    <title>市場日報｜公開版</title>
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">PUBLIC MARKET BRIEF</p>
+          <h1>市場日報</h1>
+          <p id="report-meta" class="muted">載入最新公開報告中…</p>
+        </div>
+        <a class="latest-link" href="/latest/">最新報告</a>
+      </header>
+      <nav class="tabs" aria-label="報告導覽">
+        <button type="button" class="tab active" data-panel="market" aria-selected="true">今日盤面</button>
+        <button type="button" class="tab" data-panel="themes" aria-selected="false">題材與資金</button>
+        <button type="button" class="tab" data-panel="archive" aria-selected="false">歷史報告</button>
+      </nav>
+      <section id="market" class="panel active">
+        <div id="market-stats" class="stats" aria-live="polite"></div>
+        <article class="card">
+          <div class="section-heading"><div><p class="eyebrow">CAPITAL ROTATION</p><h2>資金輪動代表股</h2></div><p class="muted">代表股當日收盤漲跌；不等同正式法人買賣超。</p></div>
+          <div id="rotation-bars" class="bar-chart"></div>
+        </article>
+        <div id="market-notes" class="note-grid"></div>
+        <article id="market-decision" class="card decision"></article>
+      </section>
+      <section id="themes" class="panel" hidden>
+        <article class="card"><div class="section-heading"><div><p class="eyebrow">WATCHLIST</p><h2>題材雷達</h2></div><p class="muted">只作市場追蹤，非買賣建議。</p></div><div id="theme-list" class="theme-grid"></div></article>
+      </section>
+      <section id="archive" class="panel" hidden>
+        <article class="card"><div class="section-heading"><div><p class="eyebrow">REPORT ARCHIVE</p><h2>歷史公開報告</h2></div><p class="muted">每個交易日獨立保存；固定網址會讀取最新一份。</p></div><div id="archive-list" class="archive-list"></div></article>
+      </section>
+      <footer><span>僅供公開資訊整理與個人研究，不構成投資建議。</span><span id="source-links"></span></footer>
+    </main>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>
