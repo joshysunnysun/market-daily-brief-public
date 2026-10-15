@@ -19,7 +19,7 @@ function render(report, index) {
   document.querySelector('#market-notes').innerHTML = report.notes.map(n => `<article class="note"><h3>${n.title}</h3><p>${n.text}</p></article>`).join('');
   document.querySelector('#market-decision').innerHTML = `<strong>今日判讀：</strong>${report.marketDecision}`;
   document.querySelector('#theme-list').innerHTML = report.themes.map(t => `<article class="theme"><span class="tag">${t.status}</span><h3>${t.name}</h3><p>${t.text}</p></article>`).join('');
-  document.querySelector('#archive-list').innerHTML = index.reports.map(item => `<div class="archive-item"><div><strong>${item.date}</strong><div class="muted">${item.title}</div></div><a href="/?date=${item.date}">開啟</a></div>`).join('');
+  document.querySelector('#archive-list').innerHTML = index.reports.map(item => `<div class="archive-item"><div><strong>${item.date}</strong><div class="muted">${item.title}</div></div><a href="?date=${item.date}">開啟</a></div>`).join('');
   document.querySelector('#source-links').innerHTML = report.sources.map(s => `<a href="${s.url}" target="_blank" rel="noreferrer">${s.label}</a>`).join(' · ');
 }
 document.querySelectorAll('.tab').forEach(button => button.addEventListener('click', () => {
@@ -29,8 +29,8 @@ document.querySelectorAll('.tab').forEach(button => button.addEventListener('cli
   const panel = document.getElementById(button.dataset.panel); panel.hidden = false; panel.classList.add('active');
 }));
 async function load() {
-  const path = requestedDate ? `/reports/${requestedDate}.json` : '/reports/latest.json';
-  const [reportResponse, indexResponse] = await Promise.all([fetch(path), fetch('/reports/index.json')]);
+  const path = requestedDate ? `reports/${requestedDate}.json` : 'reports/latest.json';
+  const [reportResponse, indexResponse] = await Promise.all([fetch(path), fetch('reports/index.json')]);
   if (!reportResponse.ok) throw new Error('找不到指定日期的報告');
   render(await reportResponse.json(), await indexResponse.json());
 }
