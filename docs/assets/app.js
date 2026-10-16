@@ -18,8 +18,11 @@ const glossary = {
   'P/E': '本益比，股價相對每股盈餘的估值倍數。',
 };
 let currentStocks = [];
+let searchableStocks = [];
 let stocksByTicker = new Map();
+let trackedTickers = new Set();
 let activeSuggestion = -1;
+const customWatchlistKey = 'market-daily-brief:custom-watchlist:v1';
 
 function tooltip(text, tip, extraClass = '') {
   return `<span class="glossary ${extraClass}" tabindex="0" data-tip="${escapeHtml(tip)}" aria-label="${escapeHtml(`${text}：${tip}`)}">${escapeHtml(text)}</span>`;
@@ -153,6 +156,7 @@ function stockDialogContent(stock) {
   const checks = stock.screening?.checks ?? [];
   return `
     <p class="company-line">${escapeHtml(stock.company)} · ${escapeHtml(stock.exchange)}</p>
+    <div class="watch-actions"><button type="button" class="watch-toggle" data-stock="${escapeHtml(stock.ticker)}">${savedTickers().has(String(stock.ticker)) ? '從我的觀察移除' : '加入我的觀察'}</button><span>只保存在這台瀏覽器，不會上傳或公開。</span></div>
     ${discoveryEvidence(stock)}
     <section class="dialog-section"><h3>價格</h3><dl class="evidence-grid">${detailItem('最新價格', price.status === 'available' ? `${formatNumber(price.value)} ${price.currency ?? ''}` : statusLabel(price.status), price.source ?? price.detail)}${detailItem('1 日', formatPct(returns.d1))}${detailItem('5 日', formatPct(returns.d5))}${detailItem('20 日', formatPct(returns.d20))}</dl></section>
     ${institutionalEvidence(stock, periods)}
@@ -171,7 +175,7 @@ function openStock(ticker) {
   if (!title || !body || !dialog) return;
   title.textContent = `${stock.ticker} ${stock.name}`;
   body.innerHTML = stockDialogContent(stock);
-  bindGlossary();
+  bindGlossary(); bindWatchToggle(stock);
   if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open', '');
 }
 
@@ -185,15 +189,67 @@ function watchlist(stocks) {
   }).join('');
 }
 
+function savedTickers() {
+  try {
+    const value = JSON.parse(globalThis.localStorage?.getItem(customWatchlistKey) ?? '[]');
+    return new Set(Array.isArray(value) ? value.map(String) : []);
+  } catch { return new Set(); }
+}
+
+function saveTickers(tickers) {
+  try { globalThis.localStorage?.setItem(customWatchlistKey, JSON.stringify([...tickers])); } catch { /* local storage may be disabled */ }
+}
+
+function toggleSavedStock(ticker) {
+  const saved = savedTickers();
+  const key = String(ticker);
+  if (saved.has(key)) saved.delete(key); else saved.add(key);
+  saveTickers(saved);
+  renderCustomWatchlist();
+}
+
+function bindWatchToggle(stock) {
+  const button = document.querySelector('.watch-toggle');
+  if (!button?.addEventListener) return;
+  button.addEventListener('click', () => {
+    toggleSavedStock(stock.ticker);
+    const body = document.querySelector('#stock-dialog-body');
+    if (body) body.innerHTML = stockDialogContent(stock);
+    bindGlossary(); bindWatchToggle(stock);
+  });
+}
+
+function renderCustomWatchlist() {
+  const element = document.querySelector('#custom-watchlist');
+  if (!element) return;
+  const saved = savedTickers();
+  const stocks = [...saved].map(ticker => stocksByTicker.get(ticker)).filter(Boolean);
+  element.innerHTML = stocks.length ? watchlist(stocks) : '<div class="empty-state">尚未加入股票。可從上方搜尋完整台股目錄，再按「加入我的觀察」。</div>';
+  bindStockTriggers(); bindGlossary();
+}
+
 function candidateCard(candidate) {
   const stock = stocksByTicker.get(String(candidate.ticker));
   const metrics = (candidate.metrics ?? []).map(item => `<div class="candidate-metric"><span>${explained(item.label)}</span><strong class="${escapeHtml(item.direction ?? '')}">${escapeHtml(item.value)}</strong><small>${escapeHtml(item.detail ?? '')}</small></div>`).join('');
   return `<article class="candidate card"><div class="candidate-head"><div><span class="tag">${escapeHtml(candidate.stage)}</span><h3>${stock ? stockButton(stock) : escapeHtml(`${candidate.ticker} ${candidate.name}`)}</h3><p>${escapeHtml(candidate.company)}</p></div><div class="score"><strong>${escapeHtml(candidate.score)}</strong><span>篩選分數</span></div></div><p class="quality-line">資料品質：${escapeHtml(candidate.dataQuality)}</p><div class="candidate-metrics">${metrics}</div><dl class="candidate-details"><div><dt>財報趨勢</dt><dd>${escapeHtml(candidate.financialTrend)}</dd></div><div><dt>基本面催化</dt><dd>${escapeHtml(candidate.catalyst)}</dd></div><div><dt>市場敘事</dt><dd>${escapeHtml(candidate.narrative)}</dd></div><div><dt>買進條件</dt><dd>${escapeHtml(candidate.entryCondition)}</dd></div><div><dt>失效條件</dt><dd>${escapeHtml(candidate.invalidation)}</dd></div><div><dt>停損</dt><dd>${escapeHtml(candidate.stopLoss)}</dd></div><div><dt>部位規畫</dt><dd>${escapeHtml(candidate.positionPlan)}</dd></div></dl></article>`;
 }
 
-function renderCandidates(id, market) {
+function evaluationCard(stock) {
+  const checks = stock.screening?.checks ?? [];
+  const passed = checks.filter(check => check.status === 'pass').length;
+  const score = checks.length ? Math.round(passed / checks.length * 100) : 0;
+  const gaps = checks.filter(check => check.status !== 'pass');
+  return `<article class="candidate card evaluation-card"><div class="candidate-head"><div><span class="tag">${stock.screening?.eligible ? '條件通過' : '評估中・尚未通過'}</span><h3>${stockButton(stock)}</h3><p>${escapeHtml(stock.company)}</p></div><div class="score"><strong>${score}</strong><span>完成度</span></div></div><p class="quality-line">${passed}/${checks.length} 項通過；${gaps.length ? `主要缺口：${escapeHtml(gaps.slice(0, 3).map(check => check.label).join('、'))}` : '必要條件均通過'}</p><div class="check-list compact-checks">${checks.map(check => `<div class="check-row"><span class="check-dot ${escapeHtml(check.status)}"></span><strong>${escapeHtml(check.label)}</strong><span>${escapeHtml(check.detail)}</span></div>`).join('')}</div></article>`;
+}
+
+function renderCandidates(id, market, marketKey) {
   const element = document.querySelector(`#${id}`);
-  if (element) element.innerHTML = market.candidates.length ? market.candidates.map(candidateCard).join('') : `<article class="empty-state candidate-empty"><strong>本次沒有合格候選</strong><p>${escapeHtml(market.noCandidateReason)}</p></article>`;
+  if (!element) return;
+  const evaluated = currentStocks.filter(stock => stock.market === marketKey)
+    .sort((left, right) => Number(right.screening?.eligible) - Number(left.screening?.eligible));
+  const qualified = market.candidates.map(candidateCard).join('');
+  const notice = market.candidates.length ? '' : `<article class="empty-state candidate-empty"><strong>本次沒有完整合格候選，但評估清單不再留白</strong><p>${escapeHtml(market.noCandidateReason)} 下方可逐檔查看已通過項目與缺口。</p></article>`;
+  element.innerHTML = `${qualified}${notice}${evaluated.map(evaluationCard).join('')}`;
 }
 
 function renderMarket(key, market) {
@@ -204,7 +260,7 @@ function renderMarket(key, market) {
   document.querySelector(`#${key}-notes`).innerHTML = notes(market.notes);
   document.querySelector(`#${key}-decision`).innerHTML = `<strong>市場判讀：</strong>${escapeHtml(market.decision)}`;
   document.querySelector(`#${key}-watchlist`).innerHTML = watchlist(currentStocks.filter(stock => stock.market === key));
-  renderCandidates(`${key}-candidates`, market);
+  renderCandidates(`${key}-candidates`, market, key);
 }
 
 function bindStockTriggers() {
@@ -223,10 +279,13 @@ function bindGlossary() {
   });
 }
 
-function render(rawReport, index) {
+function render(rawReport, index, directory = { stocks: [] }) {
   const report = normalize(rawReport);
   currentStocks = report.stocks;
-  stocksByTicker = new Map(currentStocks.map(stock => [String(stock.ticker), stock]));
+  trackedTickers = new Set(currentStocks.map(stock => String(stock.ticker)));
+  stocksByTicker = new Map((directory.stocks ?? []).map(stock => [String(stock.ticker), stock]));
+  currentStocks.forEach(stock => stocksByTicker.set(String(stock.ticker), stock));
+  searchableStocks = [...stocksByTicker.values()];
   document.title = `${report.date}｜市場日報`;
   document.querySelector('#report-meta').textContent = `${report.date}｜資料截點 ${report.generatedAt}｜${report.disclaimer}`;
   renderStats('market-stats', report.overview.stats);
@@ -238,7 +297,7 @@ function render(rawReport, index) {
   document.querySelector('#archive-list').innerHTML = index.reports.map(item => `<div class="archive-item"><div><strong>${escapeHtml(item.date)}</strong><div class="muted">${escapeHtml(item.title)}</div></div><a href="?date=${encodeURIComponent(item.date)}">開啟</a></div>`).join('');
   document.querySelector('#source-links').innerHTML = report.sources.map(source => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)}</a>`).join(' · ');
   document.querySelectorAll('.jump-link').forEach(button => button.addEventListener('click', () => activatePanel(button.dataset.target)));
-  bindStockTriggers(); bindGlossary(); renderSearch('');
+  bindStockTriggers(); bindGlossary(); renderSearch(''); renderCustomWatchlist();
 }
 
 function activatePanel(panelId) {
@@ -249,7 +308,7 @@ function activatePanel(panelId) {
 function matchingStocks(value) {
   const needle = String(value).trim().toLocaleLowerCase('zh-Hant');
   if (!needle) return currentStocks.slice(0, 8);
-  return currentStocks.filter(stock => `${stock.ticker} ${stock.symbol} ${stock.name} ${stock.company}`.toLocaleLowerCase('zh-Hant').includes(needle)).slice(0, 8);
+  return searchableStocks.filter(stock => `${stock.ticker} ${stock.symbol} ${stock.name} ${stock.company}`.toLocaleLowerCase('zh-Hant').includes(needle)).slice(0, 12);
 }
 
 function renderSearch(value) {
@@ -258,7 +317,7 @@ function renderSearch(value) {
   if (!input || !results) return;
   const matches = matchingStocks(value);
   activeSuggestion = Math.min(activeSuggestion, matches.length - 1);
-  results.innerHTML = matches.map((stock, index) => `<button type="button" role="option" class="search-option ${index === activeSuggestion ? 'active' : ''}" data-stock="${escapeHtml(stock.ticker)}" aria-selected="${index === activeSuggestion}"><span><strong>${escapeHtml(stock.ticker)}</strong> ${escapeHtml(stock.name)}</span><small>${escapeHtml(stock.exchange)} · ${stock.market === 'tw' ? '台股' : '美股'}</small></button>`).join('');
+  results.innerHTML = matches.map((stock, index) => `<button type="button" role="option" class="search-option ${index === activeSuggestion ? 'active' : ''}" data-stock="${escapeHtml(stock.ticker)}" aria-selected="${index === activeSuggestion}"><span><strong>${escapeHtml(stock.ticker)}</strong> ${escapeHtml(stock.name)}</span><small>${escapeHtml(stock.exchange)} · ${trackedTickers.has(String(stock.ticker)) ? '本期追蹤' : '完整台股目錄'}</small></button>`).join('');
   results.hidden = !value || !matches.length;
   input.setAttribute('aria-expanded', String(!results.hidden));
   results.querySelectorAll?.('.search-option').forEach(button => button.addEventListener('click', () => { results.hidden = true; input.setAttribute('aria-expanded', 'false'); openStock(button.dataset.stock); }));
@@ -286,10 +345,14 @@ setupSearch();
 
 async function load() {
   const reportPath = requestedDate ? `reports/${encodeURIComponent(requestedDate)}.json` : 'reports/latest.json';
-  const [reportResponse, indexResponse] = await Promise.all([fetch(reportPath), fetch('reports/index.json')]);
+  const [reportResponse, indexResponse, directory] = await Promise.all([
+    fetch(reportPath),
+    fetch('reports/index.json'),
+    fetch('data/stocks.json').then(response => response.ok ? response.json() : { stocks: [] }).catch(() => ({ stocks: [] })),
+  ]);
   if (!reportResponse.ok) throw new Error('找不到指定日期的報告');
   if (!indexResponse.ok) throw new Error('找不到歷史報告索引');
-  render(await reportResponse.json(), await indexResponse.json());
+  render(await reportResponse.json(), await indexResponse.json(), directory);
 }
 
 load().catch(error => { document.querySelector('#report-meta').textContent = `報告暫時無法載入：${error.message}`; });

@@ -15,10 +15,12 @@
       </header>
 
       <section class="search-shell" aria-labelledby="search-label">
-        <label id="search-label" for="stock-search">搜尋股票代碼或名稱</label>
+        <label id="search-label" for="stock-search">搜尋股票代碼或名稱（完整台股目錄＋目前美股追蹤）</label>
         <div class="search-control"><span aria-hidden="true">⌕</span><input id="stock-search" type="search" autocomplete="off" placeholder="例如 2330、台積電、NVDA" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false"></div>
         <div id="search-results" class="search-results" role="listbox" hidden></div>
       </section>
+
+      <section class="card personal-watch-card" aria-labelledby="custom-watch-title"><div class="section-heading"><div><p class="eyebrow">MY LOCAL WATCHLIST</p><h2 id="custom-watch-title">我的瀏覽器觀察</h2></div><p class="muted">只存在這台裝置，不會寫入公開網站或 GitHub；搜尋股票後可自行加入或移除。</p></div><div id="custom-watchlist" class="watchlist-grid"></div></section>
 
       <nav class="tabs" aria-label="報告導覽">
         <button type="button" class="tab active" data-panel="overview" aria-selected="true">重點總覽</button>
@@ -57,8 +59,8 @@
 
       <section id="candidates" class="panel" hidden>
         <div class="section-heading page-heading"><div><p class="eyebrow">EVIDENCE GATE</p><h2>候選股票與完整條件</h2></div><p class="muted">門檻由設定檔管理；必要資料不足時不會硬推股票。</p></div>
-        <h3 class="market-label">台股候選</h3><div id="tw-candidates" class="candidate-grid"></div>
-        <h3 class="market-label">美股候選</h3><div id="us-candidates" class="candidate-grid"></div>
+        <h3 class="market-label">台股候選評估</h3><div id="tw-candidates" class="candidate-grid"></div>
+        <h3 class="market-label">美股候選評估</h3><div id="us-candidates" class="candidate-grid"></div>
       </section>
 
       <section id="themes" class="panel" hidden><article class="card"><div class="section-heading"><div><p class="eyebrow">THEME RADAR</p><h2>題材階段與市場敘事</h2></div><p class="muted">題材熱度只是觀察層，仍需正式資料與價格條件確認。</p></div><div id="theme-list" class="theme-grid"></div></article></section>
