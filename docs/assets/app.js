@@ -308,7 +308,14 @@ function activatePanel(panelId) {
 function matchingStocks(value) {
   const needle = String(value).trim().toLocaleLowerCase('zh-Hant');
   if (!needle) return currentStocks.slice(0, 8);
-  return searchableStocks.filter(stock => `${stock.ticker} ${stock.symbol} ${stock.name} ${stock.company}`.toLocaleLowerCase('zh-Hant').includes(needle)).slice(0, 12);
+  return searchableStocks
+    .filter(stock => `${stock.ticker} ${stock.symbol} ${stock.name} ${stock.company}`.toLocaleLowerCase('zh-Hant').includes(needle))
+    .sort((left, right) => {
+      const rank = stock => String(stock.ticker).toLocaleLowerCase('zh-Hant') === needle || String(stock.name).toLocaleLowerCase('zh-Hant') === needle ? 0
+        : String(stock.ticker).toLocaleLowerCase('zh-Hant').startsWith(needle) || String(stock.name).toLocaleLowerCase('zh-Hant').startsWith(needle) ? 1 : 2;
+      return rank(left) - rank(right) || String(left.ticker).localeCompare(String(right.ticker), 'en', { numeric: true });
+    })
+    .slice(0, 12);
 }
 
 function renderSearch(value) {
