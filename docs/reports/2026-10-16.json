@@ -2,15 +2,15 @@
   "date": "2026-10-16",
   "timezone": "Asia/Taipei",
   "session": "tw_pre",
-  "generatedAt": "2026-10-16T09:07:16+08:00",
+  "generatedAt": "2026-10-16T12:50:28+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
       {
         "label": "加權指數",
-        "value": "46,969.87",
-        "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
-        "direction": "negative"
+        "value": "47,264.41",
+        "detail": "1日 +0.63%｜5日 -4.16%｜20日 +3.85%",
+        "direction": "positive"
       },
       {
         "label": "S&P 500",
@@ -28,7 +28,7 @@
     "notes": [
       {
         "title": "台股觀察名單相對強弱",
-        "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
+        "text": "2454 聯發科 單日 +2.76% 最強；6488 環球晶 -1.52% 最弱。點選排行可查看完整證據。"
       },
       {
         "title": "美股觀察名單相對強弱",
@@ -41,20 +41,20 @@
     "tw": {
       "label": "台股",
       "session": "tw_pre",
-      "updatedAt": "2026-10-16T09:07:16+08:00",
-      "dataQuality": "7/7 檔有行情；正式法人完整 6 檔、融資 7 檔、借券 7 檔",
+      "updatedAt": "2026-10-16T12:50:28+08:00",
+      "dataQuality": "7/7 檔有行情；正式法人完整 6 檔、融資 7 檔、借券 1 檔",
       "stats": [
         {
           "label": "加權指數",
-          "value": "46,969.87",
-          "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
-          "direction": "negative"
+          "value": "47,264.41",
+          "detail": "1日 +0.63%｜5日 -4.16%｜20日 +3.85%",
+          "direction": "positive"
         },
         {
           "label": "追蹤股漲跌家數",
-          "value": "2 ↑ / 5 ↓",
+          "value": "4 ↑ / 3 ↓",
           "detail": "7 檔取得有效行情",
-          "direction": "negative"
+          "direction": "positive"
         },
         {
           "label": "操作候選",
@@ -73,57 +73,57 @@
         {
           "label": "融資融券",
           "value": "7/7 檔",
-          "detail": "正式餘額截點 2026-10-15",
+          "detail": "正式餘額截點 2026-10-16",
           "direction": ""
         },
         {
           "label": "借券",
-          "value": "7/7 檔",
-          "detail": "正式餘額截點 2026-10-15",
+          "value": "1/7 檔",
+          "detail": "正式餘額截點 2026-10-16",
           "direction": ""
         }
       ],
       "rotation": [
         {
-          "name": "2890 永豐金",
-          "ticker": "2890",
-          "value": 3.5187270463253206
+          "name": "2454 聯發科",
+          "ticker": "2454",
+          "value": 2.761104441776707
         },
         {
           "name": "2884 玉山金",
           "ticker": "2884",
-          "value": 3.1712474084454545
+          "value": 0.819675270763387
         },
         {
-          "name": "2330 台積電",
-          "ticker": "2330",
-          "value": -2.008032128514059
-        },
-        {
-          "name": "2454 聯發科",
-          "ticker": "2454",
-          "value": -6.9273743016759814
+          "name": "2890 永豐金",
+          "ticker": "2890",
+          "value": 0.43859817901739095
         },
         {
           "name": "2308 台達電",
           "ticker": "2308",
-          "value": -8.683473389355745
-        },
-        {
-          "name": "6488 環球晶",
-          "ticker": "6488",
-          "value": -9.509803921568627
+          "value": 0.30674846625766694
         },
         {
           "name": "2360 致茂",
           "ticker": "2360",
-          "value": -9.999999999999998
+          "value": 0
+        },
+        {
+          "name": "2330 台積電",
+          "ticker": "2330",
+          "value": -0.2049180327868827
+        },
+        {
+          "name": "6488 環球晶",
+          "ticker": "6488",
+          "value": -1.5167930660888396
         }
       ],
       "notes": [
         {
           "title": "台股觀察名單相對強弱",
-          "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
+          "text": "2454 聯發科 單日 +2.76% 最強；6488 環球晶 -1.52% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
@@ -137,7 +137,7 @@
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-16T09:07:16+08:00",
+      "updatedAt": "2026-10-16T12:50:28+08:00",
       "dataQuality": "5/5 檔取得 Yahoo 或 Nasdaq fallback 行情；機構代理與財報仍需可驗證來源",
       "stats": [
         {
@@ -224,9 +224,9 @@
   "marketStats": [
     {
       "label": "加權指數",
-      "value": "46,969.87",
-      "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
-      "direction": "negative"
+      "value": "47,264.41",
+      "detail": "1日 +0.63%｜5日 -4.16%｜20日 +3.85%",
+      "direction": "positive"
     },
     {
       "label": "S&P 500",
@@ -243,45 +243,45 @@
   ],
   "rotation": [
     {
-      "name": "2890 永豐金",
-      "ticker": "2890",
-      "value": 3.5187270463253206
+      "name": "2454 聯發科",
+      "ticker": "2454",
+      "value": 2.761104441776707
     },
     {
       "name": "2884 玉山金",
       "ticker": "2884",
-      "value": 3.1712474084454545
+      "value": 0.819675270763387
     },
     {
-      "name": "2330 台積電",
-      "ticker": "2330",
-      "value": -2.008032128514059
-    },
-    {
-      "name": "2454 聯發科",
-      "ticker": "2454",
-      "value": -6.9273743016759814
+      "name": "2890 永豐金",
+      "ticker": "2890",
+      "value": 0.43859817901739095
     },
     {
       "name": "2308 台達電",
       "ticker": "2308",
-      "value": -8.683473389355745
-    },
-    {
-      "name": "6488 環球晶",
-      "ticker": "6488",
-      "value": -9.509803921568627
+      "value": 0.30674846625766694
     },
     {
       "name": "2360 致茂",
       "ticker": "2360",
-      "value": -9.999999999999998
+      "value": 0
+    },
+    {
+      "name": "2330 台積電",
+      "ticker": "2330",
+      "value": -0.2049180327868827
+    },
+    {
+      "name": "6488 環球晶",
+      "ticker": "6488",
+      "value": -1.5167930660888396
     }
   ],
   "notes": [
     {
       "title": "台股觀察名單相對強弱",
-      "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
+      "text": "2454 聯發科 單日 +2.76% 最強；6488 環球晶 -1.52% 最弱。點選排行可查看完整證據。"
     },
     {
       "title": "美股觀察名單相對強弱",
@@ -325,17 +325,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": -2.008032128514059,
-          "d5": -5.609284332688591,
-          "d20": 2.5210084033613356
+          "d1": -0.2049180327868827,
+          "d5": -4.509803921568622,
+          "d20": 2.0964360587002018
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 2440,
-        "volumeRatio": 2.342436604433829
+        "value": 2435,
+        "volumeRatio": 1.2977402799467062
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -365,18 +365,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 34223,
         "change": 457,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 12797514,
-        "change": 746000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "asOf": "11509",
@@ -392,7 +389,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +2.52%"
+            "detail": "Yahoo Finance，20 日 +2.10%"
           },
           {
             "key": "institutionalPeriods",
@@ -409,8 +406,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 12,797,514"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -428,7 +425,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +2.52%，上限 18%"
+            "detail": "20 日 +2.10%，上限 18%"
           }
         ],
         "eligible": false,
@@ -448,17 +445,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": -6.9273743016759814,
-          "d5": -13.85729058945191,
-          "d20": -8.662280701754387
+          "d1": 2.761104441776707,
+          "d5": -8.742004264392323,
+          "d20": -3.3860045146726914
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 4165,
-        "volumeRatio": 2.0981616192530987
+        "value": 4280,
+        "volumeRatio": 0.8995638223606287
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -488,18 +485,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 11647,
         "change": 137,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 7580000,
-        "change": 1607000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "asOf": "11509",
@@ -515,7 +509,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -8.66%"
+            "detail": "Yahoo Finance，20 日 -3.39%"
           },
           {
             "key": "institutionalPeriods",
@@ -532,8 +526,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 7,580,000"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -551,7 +545,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -8.66%，上限 18%"
+            "detail": "20 日 -3.39%，上限 18%"
           }
         ],
         "eligible": false,
@@ -571,17 +565,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": -8.683473389355745,
-          "d5": -18.090452261306535,
-          "d20": 0.6172839506172867
+          "d1": 0.30674846625766694,
+          "d5": -16.793893129770986,
+          "d20": -2.095808383233533
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 1630,
-        "volumeRatio": 1.888260255262883
+        "value": 1635,
+        "volumeRatio": 0.555123670560783
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -611,18 +605,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 10393,
         "change": 254,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 10395833,
-        "change": 3478000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "asOf": "11509",
@@ -638,7 +629,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +0.62%"
+            "detail": "Yahoo Finance，20 日 -2.10%"
           },
           {
             "key": "institutionalPeriods",
@@ -655,8 +646,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 10,395,833"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -674,7 +665,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +0.62%，上限 18%"
+            "detail": "20 日 -2.10%，上限 18%"
           }
         ],
         "eligible": false,
@@ -694,17 +685,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": -9.999999999999998,
-          "d5": -15.625,
-          "d20": -5.373831775700932
+          "d1": 0,
+          "d5": -13.090128755364805,
+          "d20": -2.644230769230771
         },
         "source": "Yahoo Finance",
         "status": "available",
         "value": 2025,
-        "volumeRatio": 1.5728636794273574
+        "volumeRatio": 1.1284913750652776
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -734,18 +725,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 1557,
         "change": 32,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 1355465,
-        "change": 318000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "asOf": "11509",
@@ -761,7 +749,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -5.37%"
+            "detail": "Yahoo Finance，20 日 -2.64%"
           },
           {
             "key": "institutionalPeriods",
@@ -778,8 +766,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 1,355,465"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -797,7 +785,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -5.37%，上限 18%"
+            "detail": "20 日 -2.64%，上限 18%"
           }
         ],
         "eligible": false,
@@ -816,17 +804,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": 3.1712474084454545,
-          "d5": 6.666664999039451,
-          "d20": 5.285870212719379
+          "d1": 0.819675270763387,
+          "d5": 9.33333502875433,
+          "d20": 7.7765588573925015
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 48.79999923706055,
-        "volumeRatio": 2.1034567580555104
+        "value": 49.20000076293945,
+        "volumeRatio": 0.9441837372912711
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -856,18 +844,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 5686,
         "change": -32,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 132418852,
-        "change": 5096000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "status": "missing",
@@ -879,7 +864,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +5.29%"
+            "detail": "Yahoo Finance，20 日 +7.78%"
           },
           {
             "key": "institutionalPeriods",
@@ -896,8 +881,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 132,418,852"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -915,7 +900,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +5.29%，上限 18%"
+            "detail": "20 日 +7.78%，上限 18%"
           }
         ],
         "eligible": false,
@@ -934,17 +919,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": 3.5187270463253206,
-          "d5": 2.1276526669132823,
-          "d20": 1.7857126131349377
+          "d1": 0.43859817901739095,
+          "d5": 3.9727582980924936,
+          "d20": 2.8058361872207227
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 45.599998474121094,
-        "volumeRatio": 2.6212098658400973
+        "value": 45.79999923706055,
+        "volumeRatio": 0.7272859951819068
       },
       "institutional": {
         "asOf": "2026-10-15",
@@ -974,18 +959,15 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 6997,
         "change": -2482,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
-        "balance": 58413865,
-        "change": 1069000,
-        "source": "TWSE",
-        "status": "available"
+        "status": "missing",
+        "detail": "本次未取得正式借券餘額"
       },
       "financials": {
         "asOf": "11509",
@@ -1001,7 +983,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +1.79%"
+            "detail": "Yahoo Finance，20 日 +2.81%"
           },
           {
             "key": "institutionalPeriods",
@@ -1018,8 +1000,8 @@
           {
             "key": "lending",
             "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 58,413,865"
+            "status": "missing",
+            "detail": "本次未取得正式借券餘額"
           },
           {
             "key": "monthlyRevenue",
@@ -1037,7 +1019,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +1.79%，上限 18%"
+            "detail": "20 日 +2.81%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1056,17 +1038,17 @@
       "catalysts": [],
       "market": "tw",
       "price": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "currency": "TWD",
         "returns": {
-          "d1": -9.509803921568627,
-          "d5": -24.03292181069959,
-          "d20": 2.5555555555555554
+          "d1": -1.5167930660888396,
+          "d5": -19.5575221238938,
+          "d20": -0.5470459518599591
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 923,
-        "volumeRatio": 1.266736537102033
+        "value": 909,
+        "volumeRatio": 0.9270749500872038
       },
       "institutional": {
         "asOf": null,
@@ -1080,14 +1062,14 @@
         "status": "insufficient"
       },
       "margin": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 13977,
         "change": -1819,
         "source": "TPEx",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-15",
+        "asOf": "2026-10-16",
         "balance": 17000000,
         "change": -2491000,
         "source": "TPEx",
@@ -1107,7 +1089,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +2.56%"
+            "detail": "Yahoo Finance，20 日 -0.55%"
           },
           {
             "key": "institutionalPeriods",
@@ -1143,7 +1125,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +2.56%，上限 18%"
+            "detail": "20 日 -0.55%，上限 18%"
           }
         ],
         "eligible": false,
