@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "timezone": "Asia/Taipei",
   "session": "tw_close",
-  "generatedAt": "2026-10-16T14:13:16+08:00",
+  "generatedAt": "2026-10-16T14:58:23+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
@@ -41,7 +41,7 @@
     "tw": {
       "label": "台股",
       "session": "tw_close",
-      "updatedAt": "2026-10-16T14:13:16+08:00",
+      "updatedAt": "2026-10-16T14:58:23+08:00",
       "dataQuality": "17/17 檔有行情；正式法人完整 16 檔、融資 17 檔、借券 17 檔",
       "stats": [
         {
@@ -197,7 +197,7 @@
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-16T14:13:16+08:00",
+      "updatedAt": "2026-10-16T14:58:23+08:00",
       "dataQuality": "5/5 檔有行情；財報 5/5 檔（SEC 0、Nasdaq 摘要 5），機構代理仍待可驗證來源",
       "stats": [
         {
