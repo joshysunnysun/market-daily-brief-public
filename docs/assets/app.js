@@ -135,7 +135,7 @@ function positionEvidence(stock) {
 function financialEvidence(stock) {
   const financials = stock.financials ?? missingBlock();
   if (stock.market === 'us' && !Number.isFinite(financials.revenue)) return `<section class="dialog-section"><h3>財報與營收</h3><dl class="evidence-grid">${detailItem('資料狀態', statusLabel(financials.status), financials.detail)}${detailItem('SEC 最新申報', financials.filingForm ?? financials.period ?? '資料不足', financials.asOf)}${detailItem('申報日期', financials.filedAt ?? '資料不足')}${detailItem('營收 YoY', '數值端點未取得')}</dl></section>`;
-  const label = stock.market === 'tw' ? 'MOPS 月營收' : 'SEC 申報營收';
+  const label = stock.market === 'tw' ? 'MOPS 月營收' : financials.source?.startsWith('Nasdaq') ? 'Nasdaq 財務摘要營收' : 'SEC 申報營收';
   const value = stock.market === 'tw' ? financials.monthlyRevenue : financials.revenue;
   return `<section class="dialog-section"><h3>財報與營收</h3><dl class="evidence-grid">${detailItem('資料狀態', statusLabel(financials.status), financials.detail)}${detailItem(label, formatNumber(value), financials.asOf)}${detailItem('YoY', formatPct(financials.yoyPct))}${stock.market === 'tw' ? detailItem('MoM', formatPct(financials.momPct)) : detailItem('申報期', financials.period ?? '資料不足', financials.filedAt)}</dl></section>`;
 }
