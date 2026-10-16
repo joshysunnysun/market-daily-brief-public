@@ -1,15 +1,15 @@
 {
   "date": "2026-10-16",
   "timezone": "Asia/Taipei",
-  "session": "us_close",
-  "generatedAt": "2026-10-16T07:04:46+08:00",
-  "disclaimer": "排程資料含公開延遲行情；代理訊號不等同正式法人進出，候選條件未完整通過。",
+  "session": "tw_pre",
+  "generatedAt": "2026-10-16T09:02:30+08:00",
+  "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
       {
         "label": "加權指數",
-        "value": "0",
-        "detail": "1日 -100.00%｜5日 -100.00%｜20日 -100.00%",
+        "value": "46,969.87",
+        "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
         "direction": "negative"
       },
       {
@@ -21,113 +21,124 @@
       {
         "label": "合格候選",
         "value": "0 檔",
-        "detail": "台美股必要條件尚未全部通過",
+        "detail": "不以缺漏資料推股",
         "direction": ""
       }
     ],
     "notes": [
       {
-        "title": "台股固定觀察樣本相對強弱",
-        "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。這是量價觀察，不代表正式機構流向。"
+        "title": "台股觀察名單相對強弱",
+        "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
       },
       {
-        "title": "美股固定觀察樣本相對強弱",
-        "text": "MU 單日 +1.87% 最強；NVDA -1.84% 最弱。這是量價觀察，不代表正式機構流向。"
+        "title": "美股觀察名單相對強弱",
+        "text": "MU Micron 單日 +1.87% 最強；NVDA NVIDIA -1.84% 最弱。點選排行可查看完整證據。"
       }
     ],
-    "decision": "排程已整理台美股價格與目前可用的正式或代理訊號。候選門檻所需資料仍有缺口，本次保留現金並等待後續資料，不為填滿版面而推薦。"
+    "decision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。"
   },
   "markets": {
     "tw": {
       "label": "台股",
-      "session": "tw_close",
-      "updatedAt": "2026-10-16T07:04:46+08:00",
-      "dataQuality": "價格為公開延遲資料；三大法人為證交所單日正式資料；多日法人、融資與借券仍待累積",
+      "session": "tw_pre",
+      "updatedAt": "2026-10-16T09:02:30+08:00",
+      "dataQuality": "7/7 檔有行情；正式法人完整 6 檔、融資 7 檔、借券 7 檔",
       "stats": [
         {
           "label": "加權指數",
-          "value": "0",
-          "detail": "1日 -100.00%｜5日 -100.00%｜20日 -100.00%",
+          "value": "46,969.87",
+          "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
           "direction": "negative"
         },
         {
           "label": "追蹤股漲跌家數",
-          "value": "2 ↑ / 4 ↓",
-          "detail": "6 檔固定觀察樣本",
+          "value": "2 ↑ / 5 ↓",
+          "detail": "7 檔取得有效行情",
           "direction": "negative"
         },
         {
           "label": "操作候選",
           "value": "0 檔",
-          "detail": "嚴格資料門檻尚未齊備",
+          "detail": "資料或門檻未完整通過",
           "direction": ""
         }
       ],
       "signals": [
         {
-          "label": "三大法人資料",
-          "value": "單日正式",
-          "detail": "候選仍需 3／5／10／20 日趨勢",
+          "label": "三大法人 3／5／10／20 日",
+          "value": "6/7 檔完整",
+          "detail": "TWSE／TPEx 正式逐日資料",
           "direction": ""
         },
         {
-          "label": "追蹤股外資較強",
-          "value": "2890 17,567,747 股",
-          "detail": "只比較固定觀察樣本的單日淨買賣量",
-          "direction": "positive"
+          "label": "融資融券",
+          "value": "7/7 檔",
+          "detail": "正式餘額截點 2026-10-15",
+          "direction": ""
         },
         {
-          "label": "融資／借券",
-          "value": "待串接",
-          "detail": "未取得前不產生台股候選",
+          "label": "借券",
+          "value": "7/7 檔",
+          "detail": "正式餘額截點 2026-10-15",
           "direction": ""
         }
       ],
       "rotation": [
         {
           "name": "2890 永豐金",
+          "ticker": "2890",
           "value": 3.5187270463253206
         },
         {
           "name": "2884 玉山金",
+          "ticker": "2884",
           "value": 3.1712474084454545
         },
         {
           "name": "2330 台積電",
+          "ticker": "2330",
           "value": -2.008032128514059
         },
         {
           "name": "2454 聯發科",
+          "ticker": "2454",
           "value": -6.9273743016759814
         },
         {
           "name": "2308 台達電",
+          "ticker": "2308",
           "value": -8.683473389355745
         },
         {
+          "name": "6488 環球晶",
+          "ticker": "6488",
+          "value": -9.509803921568627
+        },
+        {
           "name": "2360 致茂",
+          "ticker": "2360",
           "value": -9.999999999999998
         }
       ],
       "notes": [
         {
-          "title": "台股固定觀察樣本相對強弱",
-          "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。這是量價觀察，不代表正式機構流向。"
+          "title": "台股觀察名單相對強弱",
+          "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
-          "text": "需同時核對多週期資金、籌碼或成交量代理、近期漲幅、財報與事件催化；任何必要欄位缺失都不列入操作候選。"
+          "text": "門檻由 config/screening.json 管理；必要資料缺失時不列入候選。"
         }
       ],
-      "decision": "先把價量與正式單日法人資料當成觀察層。多日法人、投信集中、融資或散戶代理及財報未全部核對前，不建立新的台股操作候選。",
+      "decision": "正式資料或設定門檻未全部通過，因此不硬推台股候選。",
       "candidates": [],
-      "noCandidateReason": "本次缺少完整外資 3／5／10／20 日趨勢、投信集中、融資或散戶代理、近期財報與催化劑交叉驗證，因此沒有合格台股候選。"
+      "noCandidateReason": "config/screening.json 要求的價格、法人多週期、融資、借券、月營收與催化劑未全部通過。"
     },
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-16T07:04:46+08:00",
-      "dataQuality": "公開延遲量價資料；成交量與相對強弱只作機構活動代理，尚未串接 ETF 流量、財報與公司 IR",
+      "updatedAt": "2026-10-16T09:02:30+08:00",
+      "dataQuality": "5/5 檔取得 Yahoo 或 Nasdaq fallback 行情；機構代理與財報仍需可驗證來源",
       "stats": [
         {
           "label": "S&P 500",
@@ -151,73 +162,70 @@
       "signals": [
         {
           "label": "追蹤股漲跌家數",
-          "value": "2 ↑ / 5 ↓",
-          "detail": "7 檔固定觀察樣本",
+          "value": "1 ↑ / 4 ↓",
+          "detail": "5 檔取得有效行情",
           "direction": "negative"
         },
         {
-          "label": "ETF／機構代理",
-          "value": "待串接",
-          "detail": "不得視為正式機構進出",
+          "label": "Nasdaq fallback",
+          "value": "待命",
+          "detail": "Yahoo 失敗時改讀 Nasdaq 官方歷史行情",
           "direction": ""
         },
         {
           "label": "操作候選",
           "value": "0 檔",
-          "detail": "財報與事件資料未齊備",
+          "detail": "資料或門檻未完整通過",
           "direction": ""
         }
       ],
       "rotation": [
         {
-          "name": "MU",
+          "name": "MU Micron",
+          "ticker": "MU",
           "value": 1.8717234157253015
         },
         {
-          "name": "Nasdaq",
-          "value": 0.07551174020976603
-        },
-        {
-          "name": "AVGO",
+          "name": "AVGO Broadcom",
+          "ticker": "AVGO",
           "value": -0.5545165134250851
         },
         {
-          "name": "費城半導體",
-          "value": -0.8829312303877956
-        },
-        {
-          "name": "TSLA",
+          "name": "TSLA Tesla",
+          "ticker": "TSLA",
           "value": -1.2855434071318061
         },
         {
-          "name": "AMD",
+          "name": "AMD AMD",
+          "ticker": "AMD",
           "value": -1.5048573535001775
         },
         {
-          "name": "NVDA",
+          "name": "NVDA NVIDIA",
+          "ticker": "NVDA",
           "value": -1.8391356837292316
         }
       ],
       "notes": [
         {
-          "title": "美股固定觀察樣本相對強弱",
-          "text": "MU 單日 +1.87% 最強；NVDA -1.84% 最弱。這是量價觀察，不代表正式機構流向。"
+          "title": "美股觀察名單相對強弱",
+          "text": "MU Micron 單日 +1.87% 最強；NVDA NVIDIA -1.84% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
-          "text": "需同時核對多週期資金、籌碼或成交量代理、近期漲幅、財報與事件催化；任何必要欄位缺失都不列入操作候選。"
+          "text": "門檻由 config/screening.json 管理；必要資料缺失時不列入候選。"
         }
       ],
-      "decision": "目前可比較指數與固定觀察股的多週期價格，但不足以完成財報、事件與資金代理的交叉驗證，因此維持觀察。",
+      "decision": "缺少可驗證的機構代理、財報或催化劑，因此不硬推美股候選。",
       "candidates": [],
-      "noCandidateReason": "本次缺少 ETF 或機構活動代理、近期財報、公司指引與新聞催化的完整核對，因此沒有合格美股候選。"
+      "noCandidateReason": "config/screening.json 要求的行情、財報、機構活動代理與催化劑未全部通過。"
     }
   },
   "marketStats": [
     {
       "label": "加權指數",
-      "value": "0",
-      "detail": "1日 -100.00%｜5日 -100.00%｜20日 -100.00%",
+      "value": "46,969.87",
+      "detail": "1日 -3.41%｜5日 -5.70%｜20日 +2.41%",
       "direction": "negative"
     },
     {
@@ -229,51 +237,58 @@
     {
       "label": "合格候選",
       "value": "0 檔",
-      "detail": "台美股必要條件尚未全部通過",
+      "detail": "不以缺漏資料推股",
       "direction": ""
     }
   ],
   "rotation": [
     {
-      "name": "MU",
-      "value": 1.8717234157253015
+      "name": "2890 永豐金",
+      "ticker": "2890",
+      "value": 3.5187270463253206
     },
     {
-      "name": "Nasdaq",
-      "value": 0.07551174020976603
+      "name": "2884 玉山金",
+      "ticker": "2884",
+      "value": 3.1712474084454545
     },
     {
-      "name": "AVGO",
-      "value": -0.5545165134250851
+      "name": "2330 台積電",
+      "ticker": "2330",
+      "value": -2.008032128514059
     },
     {
-      "name": "費城半導體",
-      "value": -0.8829312303877956
+      "name": "2454 聯發科",
+      "ticker": "2454",
+      "value": -6.9273743016759814
     },
     {
-      "name": "TSLA",
-      "value": -1.2855434071318061
+      "name": "2308 台達電",
+      "ticker": "2308",
+      "value": -8.683473389355745
     },
     {
-      "name": "AMD",
-      "value": -1.5048573535001775
+      "name": "6488 環球晶",
+      "ticker": "6488",
+      "value": -9.509803921568627
     },
     {
-      "name": "NVDA",
-      "value": -1.8391356837292316
+      "name": "2360 致茂",
+      "ticker": "2360",
+      "value": -9.999999999999998
     }
   ],
   "notes": [
     {
-      "title": "台股固定觀察樣本相對強弱",
-      "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。這是量價觀察，不代表正式機構流向。"
+      "title": "台股觀察名單相對強弱",
+      "text": "2890 永豐金 單日 +3.52% 最強；2360 致茂 -10.00% 最弱。點選排行可查看完整證據。"
     },
     {
-      "title": "美股固定觀察樣本相對強弱",
-      "text": "MU 單日 +1.87% 最強；NVDA -1.84% 最弱。這是量價觀察，不代表正式機構流向。"
+      "title": "美股觀察名單相對強弱",
+      "text": "MU Micron 單日 +1.87% 最強；NVDA NVIDIA -1.84% 最弱。點選排行可查看完整證據。"
     }
   ],
-  "marketDecision": "排程已整理台美股價格與目前可用的正式或代理訊號。候選門檻所需資料仍有缺口，本次保留現金並等待後續資料，不為填滿版面而推薦。",
+  "marketDecision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。",
   "themes": [
     {
       "name": "AI 半導體／先進封裝",
@@ -296,18 +311,1255 @@
       "text": "長線需求敘事仍在，短線仍受利率與風險情緒影響。"
     }
   ],
+  "stocks": [
+    {
+      "ticker": "2330",
+      "symbol": "2330.TW",
+      "name": "台積電",
+      "exchange": "TWSE",
+      "company": "晶圓代工與先進製程服務",
+      "themes": [
+        "AI 半導體",
+        "先進製程"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": -2.008032128514059,
+          "d5": -5.609284332688591,
+          "d20": 2.5210084033613356
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 2440,
+        "volumeRatio": 2.342436604433829
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": -66504830,
+            "trust": 7040812
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": -88230643,
+            "trust": 8421753
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": -84118949,
+            "trust": 10082501
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": -88474804,
+            "trust": 9942851
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 34223,
+        "change": 457,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 12797514,
+        "change": 746000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +2.52%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 34,223"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 12,797,514"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +2.52%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "2454",
+      "symbol": "2454.TW",
+      "name": "聯發科",
+      "exchange": "TWSE",
+      "company": "IC 設計與邊緣運算平台",
+      "themes": [
+        "IC 設計",
+        "邊緣 AI"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": -6.9273743016759814,
+          "d5": -13.85729058945191,
+          "d20": -8.662280701754387
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 4165,
+        "volumeRatio": 2.0981616192530987
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": -13406365,
+            "trust": 911808
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": -18534826,
+            "trust": 771141
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": -25962436,
+            "trust": -180890
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": -22412661,
+            "trust": -291834
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 11647,
+        "change": 137,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 7580000,
+        "change": 1607000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -8.66%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 11,647"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 7,580,000"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -8.66%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "2308",
+      "symbol": "2308.TW",
+      "name": "台達電",
+      "exchange": "TWSE",
+      "company": "電源管理、散熱與資料中心基礎設施",
+      "themes": [
+        "AI 電源",
+        "資料中心"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": -8.683473389355745,
+          "d5": -18.090452261306535,
+          "d20": 0.6172839506172867
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 1630,
+        "volumeRatio": 1.888260255262883
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": -17896339,
+            "trust": -1050984
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": -20928489,
+            "trust": -1538108
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": -16654803,
+            "trust": -460914
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": -15525357,
+            "trust": 5907879
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 10393,
+        "change": 254,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 10395833,
+        "change": 3478000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +0.62%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 10,393"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 10,395,833"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +0.62%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "2360",
+      "symbol": "2360.TW",
+      "name": "致茂",
+      "exchange": "TWSE",
+      "company": "自動化測試與量測設備",
+      "themes": [
+        "測試設備",
+        "AI 伺服器"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": -9.999999999999998,
+          "d5": -15.625,
+          "d20": -5.373831775700932
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 2025,
+        "volumeRatio": 1.5728636794273574
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": -2130138,
+            "trust": -152302
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": -2374599,
+            "trust": -78406
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": 473889,
+            "trust": -1774870
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": 1758753,
+            "trust": -3549919
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 1557,
+        "change": 32,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 1355465,
+        "change": 318000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -5.37%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 1,557"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 1,355,465"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -5.37%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "2884",
+      "symbol": "2884.TW",
+      "name": "玉山金",
+      "exchange": "TWSE",
+      "company": "銀行與金融服務",
+      "themes": [
+        "金融"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": 3.1712474084454545,
+          "d5": 6.666664999039451,
+          "d20": 5.285870212719379
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 48.79999923706055,
+        "volumeRatio": 2.1034567580555104
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": 30899510,
+            "trust": 4298100
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": 36729272,
+            "trust": 4958240
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": 39198627,
+            "trust": 17182728
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": 12839003,
+            "trust": 51184846
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 5686,
+        "change": -32,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 132418852,
+        "change": 5096000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "MOPS 月營收尚未取得"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +5.29%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 5,686"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 132,418,852"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "missing",
+            "detail": "MOPS 月營收尚未取得"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +5.29%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "2890",
+      "symbol": "2890.TW",
+      "name": "永豐金",
+      "exchange": "TWSE",
+      "company": "銀行、證券與金融服務",
+      "themes": [
+        "金融"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": 3.5187270463253206,
+          "d5": 2.1276526669132823,
+          "d20": 1.7857126131349377
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 45.599998474121094,
+        "volumeRatio": 2.6212098658400973
+      },
+      "institutional": {
+        "asOf": "2026-10-15",
+        "periods": {
+          "3": {
+            "dealer": 0,
+            "foreign": 7955613,
+            "trust": 1125541
+          },
+          "5": {
+            "dealer": 0,
+            "foreign": 4756941,
+            "trust": 2723572
+          },
+          "10": {
+            "dealer": 0,
+            "foreign": -16723158,
+            "trust": 12750433
+          },
+          "20": {
+            "dealer": 0,
+            "foreign": -46446113,
+            "trust": 44658363
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 6997,
+        "change": -2482,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 58413865,
+        "change": 1069000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +1.79%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 6,997"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 58,413,865"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +1.79%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "6488",
+      "symbol": "6488.TWO",
+      "name": "環球晶",
+      "exchange": "TPEx",
+      "company": "半導體矽晶圓製造",
+      "themes": [
+        "半導體材料"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "TWD",
+        "returns": {
+          "d1": -9.509803921568627,
+          "d5": -24.03292181069959,
+          "d20": 2.5555555555555554
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 923,
+        "volumeRatio": 1.266736537102033
+      },
+      "institutional": {
+        "asOf": null,
+        "periods": {
+          "3": null,
+          "5": null,
+          "10": null,
+          "20": null
+        },
+        "source": "TPEx",
+        "status": "insufficient"
+      },
+      "margin": {
+        "asOf": "2026-10-15",
+        "balance": 13977,
+        "change": -1819,
+        "source": "TPEx",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-15",
+        "balance": 17000000,
+        "change": -2491000,
+        "source": "TPEx",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 0,
+        "momPct": 0,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 0,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +2.56%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "missing",
+            "detail": "正式交易日資料不足 20 筆"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 13,977"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 17,000,000"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY 0.00%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +2.56%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "Nasdaq",
+      "company": "加速運算與 AI 晶片平台",
+      "themes": [
+        "AI 半導體"
+      ],
+      "catalysts": [],
+      "market": "us",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "USD",
+        "returns": {
+          "d1": -1.8391356837292316,
+          "d5": -5.748872026040575,
+          "d20": -0.9619771339382743
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 217.22999572753906,
+        "volumeRatio": 1.1884028343969657
+      },
+      "institutional": {
+        "status": "not_applicable",
+        "detail": "美股沒有台灣三大法人同型的每日官方分類"
+      },
+      "margin": {
+        "status": "not_applicable",
+        "detail": "未使用台灣融資融券制度資料"
+      },
+      "lending": {
+        "status": "not_applicable",
+        "detail": "未使用台灣借券制度資料"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "尚未串接公司申報財報"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -0.96%"
+          },
+          {
+            "key": "financials",
+            "label": "財報資料",
+            "status": "missing",
+            "detail": "尚未串接公司申報財報"
+          },
+          {
+            "key": "institutionalProxy",
+            "label": "機構活動代理",
+            "status": "missing",
+            "detail": "尚未取得可驗證的 ETF 流量或公司申報資料"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -0.96%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "exchange": "Nasdaq",
+      "company": "半導體與基礎軟體",
+      "themes": [
+        "AI 網路",
+        "客製化晶片"
+      ],
+      "catalysts": [],
+      "market": "us",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "USD",
+        "returns": {
+          "d1": -0.5545165134250851,
+          "d5": -4.389967077556034,
+          "d20": -0.8551688238104926
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 344.3299865722656,
+        "volumeRatio": 1.2440279574552848
+      },
+      "institutional": {
+        "status": "not_applicable",
+        "detail": "美股沒有台灣三大法人同型的每日官方分類"
+      },
+      "margin": {
+        "status": "not_applicable",
+        "detail": "未使用台灣融資融券制度資料"
+      },
+      "lending": {
+        "status": "not_applicable",
+        "detail": "未使用台灣借券制度資料"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "尚未串接公司申報財報"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -0.86%"
+          },
+          {
+            "key": "financials",
+            "label": "財報資料",
+            "status": "missing",
+            "detail": "尚未串接公司申報財報"
+          },
+          {
+            "key": "institutionalProxy",
+            "label": "機構活動代理",
+            "status": "missing",
+            "detail": "尚未取得可驗證的 ETF 流量或公司申報資料"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -0.86%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "MU",
+      "symbol": "MU",
+      "name": "Micron",
+      "exchange": "Nasdaq",
+      "company": "記憶體與儲存產品",
+      "themes": [
+        "HBM",
+        "記憶體"
+      ],
+      "catalysts": [],
+      "market": "us",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "USD",
+        "returns": {
+          "d1": 1.8717234157253015,
+          "d5": -10.09808262255084,
+          "d20": -4.732481817455247
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 931.239990234375,
+        "volumeRatio": 1.4746091474031235
+      },
+      "institutional": {
+        "status": "not_applicable",
+        "detail": "美股沒有台灣三大法人同型的每日官方分類"
+      },
+      "margin": {
+        "status": "not_applicable",
+        "detail": "未使用台灣融資融券制度資料"
+      },
+      "lending": {
+        "status": "not_applicable",
+        "detail": "未使用台灣借券制度資料"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "尚未串接公司申報財報"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -4.73%"
+          },
+          {
+            "key": "financials",
+            "label": "財報資料",
+            "status": "missing",
+            "detail": "尚未串接公司申報財報"
+          },
+          {
+            "key": "institutionalProxy",
+            "label": "機構活動代理",
+            "status": "missing",
+            "detail": "尚未取得可驗證的 ETF 流量或公司申報資料"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -4.73%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "exchange": "Nasdaq",
+      "company": "電動車、能源與自動駕駛",
+      "themes": [
+        "電動車",
+        "自動駕駛"
+      ],
+      "catalysts": [],
+      "market": "us",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "USD",
+        "returns": {
+          "d1": -1.2855434071318061,
+          "d5": -3.3493326822916614,
+          "d20": -1.026763965124955
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 362.44000244140625,
+        "volumeRatio": 0.7697508171677313
+      },
+      "institutional": {
+        "status": "not_applicable",
+        "detail": "美股沒有台灣三大法人同型的每日官方分類"
+      },
+      "margin": {
+        "status": "not_applicable",
+        "detail": "未使用台灣融資融券制度資料"
+      },
+      "lending": {
+        "status": "not_applicable",
+        "detail": "未使用台灣借券制度資料"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "尚未串接公司申報財報"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 -1.03%"
+          },
+          {
+            "key": "financials",
+            "label": "財報資料",
+            "status": "missing",
+            "detail": "尚未串接公司申報財報"
+          },
+          {
+            "key": "institutionalProxy",
+            "label": "機構活動代理",
+            "status": "missing",
+            "detail": "尚未取得可驗證的 ETF 流量或公司申報資料"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 -1.03%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "symbol": "AMD",
+      "name": "AMD",
+      "exchange": "Nasdaq",
+      "company": "CPU、GPU 與資料中心運算",
+      "themes": [
+        "AI 半導體",
+        "資料中心"
+      ],
+      "catalysts": [],
+      "market": "us",
+      "price": {
+        "asOf": "2026-10-15",
+        "currency": "USD",
+        "returns": {
+          "d1": -1.5048573535001775,
+          "d5": -9.417093010369227,
+          "d20": 3.144426199128736
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 562.22998046875,
+        "volumeRatio": 1.3239534525373287
+      },
+      "institutional": {
+        "status": "not_applicable",
+        "detail": "美股沒有台灣三大法人同型的每日官方分類"
+      },
+      "margin": {
+        "status": "not_applicable",
+        "detail": "未使用台灣融資融券制度資料"
+      },
+      "lending": {
+        "status": "not_applicable",
+        "detail": "未使用台灣借券制度資料"
+      },
+      "financials": {
+        "status": "missing",
+        "detail": "尚未串接公司申報財報"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +3.14%"
+          },
+          {
+            "key": "financials",
+            "label": "財報資料",
+            "status": "missing",
+            "detail": "尚未串接公司申報財報"
+          },
+          {
+            "key": "institutionalProxy",
+            "label": "機構活動代理",
+            "status": "missing",
+            "detail": "尚未取得可驗證的 ETF 流量或公司申報資料"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +3.14%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    }
+  ],
   "sources": [
     {
-      "label": "Yahoo Finance 公開延遲行情",
+      "label": "Yahoo Finance 延遲行情",
       "url": "https://finance.yahoo.com/markets/"
     },
     {
-      "label": "證交所三大法人 2026-10-15",
-      "url": "https://www.twse.com.tw/rwd/zh/fund/T86?date=20261015&selectType=ALLBUT0999&response=json"
+      "label": "TWSE 正式資料",
+      "url": "https://www.twse.com.tw/"
     },
     {
-      "label": "證交所即時行情",
-      "url": "https://mis.twse.com.tw/stock/index.jsp"
+      "label": "TPEx 正式資料",
+      "url": "https://www.tpex.org.tw/"
+    },
+    {
+      "label": "MOPS 公開資訊",
+      "url": "https://mops.twse.com.tw/"
+    },
+    {
+      "label": "Nasdaq fallback",
+      "url": "https://www.nasdaq.com/market-activity"
     }
   ]
 }
