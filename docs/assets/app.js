@@ -121,21 +121,42 @@ function detailItem(label, value, detail = '') {
   return `<div class="evidence-item"><dt>${explained(label)}</dt><dd>${escapeHtml(value)}</dd>${detail ? `<small>${escapeHtml(detail)}</small>` : ''}</div>`;
 }
 
+function institutionalEvidence(stock, periods) {
+  if (stock.market !== 'tw') return `<section class="dialog-section"><h3>機構活動</h3><p class="quality-line">不適用台灣三大法人分類；美股機構代理尚待可驗證來源，不以空值代替。</p></section>`;
+  const rows = [3, 5, 10, 20].map(period => `<tr><th>${period} 日</th><td>${formatNumber(periods[period]?.foreign)}</td><td>${formatNumber(periods[period]?.trust)}</td><td>${formatNumber(periods[period]?.dealer)}</td></tr>`).join('');
+  return `<section class="dialog-section"><h3>${explained('三大法人')}近 3／5／10／20 日</h3><div class="table-wrap"><table><thead><tr><th>期間</th><th>${explained('外資')}</th><th>${explained('投信')}</th><th>${explained('自營商')}</th></tr></thead><tbody>${rows}</tbody></table></div><p class="quality-line">${escapeHtml(stock.institutional?.detail ?? `${statusLabel(stock.institutional?.status)} · ${stock.institutional?.source ?? ''}`)}</p></section>`;
+}
+
+function positionEvidence(stock) {
+  if (stock.market !== 'tw') return `<section class="dialog-section"><h3>融資、融券與借券</h3><p class="quality-line">美股不適用台灣的融資融券與借券餘額制度；此處不是資料抓取失敗。</p></section>`;
+  return `<section class="dialog-section two-up"><div><h3>${explained('融資')}／${explained('融券')}</h3><dl class="evidence-grid">${detailItem('狀態', statusLabel(stock.margin?.status), stock.margin?.detail)}${detailItem('餘額', formatNumber(stock.margin?.balance), stock.margin?.asOf)}</dl></div><div><h3>${explained('借券')}</h3><dl class="evidence-grid">${detailItem('狀態', statusLabel(stock.lending?.status), stock.lending?.detail)}${detailItem('餘額', formatNumber(stock.lending?.balance), stock.lending?.asOf)}</dl></div></section>`;
+}
+
+function financialEvidence(stock) {
+  const financials = stock.financials ?? missingBlock();
+  const label = stock.market === 'tw' ? 'MOPS 月營收' : 'SEC 申報營收';
+  const value = stock.market === 'tw' ? financials.monthlyRevenue : financials.revenue;
+  return `<section class="dialog-section"><h3>財報與營收</h3><dl class="evidence-grid">${detailItem('資料狀態', statusLabel(financials.status), financials.detail)}${detailItem(label, formatNumber(value), financials.asOf)}${detailItem('YoY', formatPct(financials.yoyPct))}${stock.market === 'tw' ? detailItem('MoM', formatPct(financials.momPct)) : detailItem('申報期', financials.period ?? '資料不足', financials.filedAt)}</dl></section>`;
+}
+
+function discoveryEvidence(stock) {
+  const item = stock.discovery;
+  if (!item) return '';
+  return `<section class="dialog-section"><div class="section-heading compact"><h3>每日資金流目標</h3><span class="status-chip ${escapeHtml(item.direction)}">${escapeHtml(item.label)}</span></div><dl class="evidence-grid">${detailItem('1 日法人合計', formatNumber(item.netFlow1d), item.asOf)}${detailItem(`${item.periodDays} 日法人合計`, formatNumber(item.netFlow), `${item.source} 正式買賣超`)}</dl><p class="quality-line">依官方資料自動加入觀察名單，不代表買賣建議。</p></section>`;
+}
+
 function stockDialogContent(stock) {
   const price = stock.price ?? missingBlock();
   const periods = stock.institutional?.periods ?? {};
-  const flowRows = [3, 5, 10, 20].map(period => {
-    const row = periods[period];
-    return `<tr><th>${period} 日</th><td>${formatNumber(row?.foreign)}</td><td>${formatNumber(row?.trust)}</td><td>${formatNumber(row?.dealer)}</td></tr>`;
-  }).join('');
   const returns = price.returns ?? {};
   const checks = stock.screening?.checks ?? [];
   return `
     <p class="company-line">${escapeHtml(stock.company)} · ${escapeHtml(stock.exchange)}</p>
+    ${discoveryEvidence(stock)}
     <section class="dialog-section"><h3>價格</h3><dl class="evidence-grid">${detailItem('最新價格', price.status === 'available' ? `${formatNumber(price.value)} ${price.currency ?? ''}` : statusLabel(price.status), price.source ?? price.detail)}${detailItem('1 日', formatPct(returns.d1))}${detailItem('5 日', formatPct(returns.d5))}${detailItem('20 日', formatPct(returns.d20))}</dl></section>
-    <section class="dialog-section"><h3>${explained('三大法人')}近 3／5／10／20 日</h3><div class="table-wrap"><table><thead><tr><th>期間</th><th>${explained('外資')}</th><th>${explained('投信')}</th><th>${explained('自營商')}</th></tr></thead><tbody>${flowRows}</tbody></table></div><p class="quality-line">${escapeHtml(stock.institutional?.detail ?? `${statusLabel(stock.institutional?.status)} · ${stock.institutional?.source ?? ''}`)}</p></section>
-    <section class="dialog-section two-up"><div><h3>${explained('融資')}／${explained('融券')}</h3><dl class="evidence-grid">${detailItem('狀態', statusLabel(stock.margin?.status), stock.margin?.detail)}${detailItem('餘額', formatNumber(stock.margin?.balance), stock.margin?.asOf)}</dl></div><div><h3>${explained('借券')}</h3><dl class="evidence-grid">${detailItem('狀態', statusLabel(stock.lending?.status), stock.lending?.detail)}${detailItem('餘額', formatNumber(stock.lending?.balance), stock.lending?.asOf)}</dl></div></section>
-    <section class="dialog-section"><h3>財報與月營收</h3><dl class="evidence-grid">${detailItem('資料狀態', statusLabel(stock.financials?.status), stock.financials?.detail)}${detailItem('MOPS 月營收', formatNumber(stock.financials?.monthlyRevenue), stock.financials?.asOf)}${detailItem('YoY', formatPct(stock.financials?.yoyPct))}${detailItem('MoM', formatPct(stock.financials?.momPct))}</dl></section>
+    ${institutionalEvidence(stock, periods)}
+    ${positionEvidence(stock)}
+    ${financialEvidence(stock)}
     <section class="dialog-section two-up"><div><h3>題材</h3><p>${escapeHtml(stock.themes?.join('、') || '資料不足')}</p></div><div><h3>催化劑</h3><p>${escapeHtml(stock.catalysts?.join('；') || '尚無已核對來源與日期的催化劑')}</p></div></section>
     <section class="dialog-section"><div class="section-heading compact"><h3>候選條件</h3><span class="status-chip ${stock.screening?.eligible ? 'pass' : 'missing'}">${stock.screening?.eligible ? '合格' : '不列入候選'}</span></div><div class="check-list">${checks.map(check => `<div class="check-row"><span class="check-dot ${escapeHtml(check.status)}"></span><strong>${escapeHtml(check.label)}</strong><span>${escapeHtml(check.detail)}</span></div>`).join('') || '<p>這份歷史報告沒有完整條件。</p>'}</div></section>`;
 }
@@ -158,7 +179,8 @@ function watchlist(stocks) {
   return stocks.map(stock => {
     const change = stock.price?.returns?.d1;
     const direction = change > 0 ? 'positive' : change < 0 ? 'negative' : '';
-    return `<article class="watch-card"><div><span class="market-pill">${escapeHtml(stock.exchange)}</span>${stockButton(stock)}</div><strong class="watch-price">${stock.price?.status === 'available' ? formatNumber(stock.price.value) : '資料不足'}</strong><span class="${direction}">${formatPct(change)}</span><span class="status-chip ${stock.screening?.eligible ? 'pass' : 'missing'}">${stock.screening?.eligible ? '候選合格' : '查看缺口'}</span></article>`;
+    const discovery = stock.discovery ? `<span class="status-chip ${escapeHtml(stock.discovery.direction)}">${escapeHtml(stock.discovery.label)} · ${stock.discovery.periodDays} 日</span>` : '';
+    return `<article class="watch-card"><div><span class="market-pill">${escapeHtml(stock.exchange)}</span>${stockButton(stock)}</div><strong class="watch-price">${stock.price?.status === 'available' ? formatNumber(stock.price.value) : '資料不足'}</strong><span class="${direction}">${formatPct(change)}</span>${discovery}<span class="status-chip ${stock.screening?.eligible ? 'pass' : 'missing'}">${stock.screening?.eligible ? '候選合格' : '查看缺口'}</span></article>`;
   }).join('');
 }
 

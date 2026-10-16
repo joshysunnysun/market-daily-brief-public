@@ -59,6 +59,8 @@ h2 { font-size:clamp(1.3rem,3vw,1.8rem); }
 .market-pill { color:var(--navy); background:var(--blue-soft); }
 .status-chip { grid-column:1/-1; color:var(--amber); background:#f8efdf; }
 .status-chip.pass { color:var(--green); background:#e5f3ee; }
+.status-chip.inflow { color:var(--green); background:#e5f3ee; }
+.status-chip.outflow { color:#9c3f3f; background:#f8e7e7; }
 .bar-chart { display:grid; gap:9px; }
 .bar-row { display:grid; grid-template-columns:minmax(90px,170px) 1fr 62px; align-items:center; gap:10px; font-size:.86rem; }
 .bar-label { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
