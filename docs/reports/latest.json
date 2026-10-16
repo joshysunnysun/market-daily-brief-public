@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "timezone": "Asia/Taipei",
   "session": "tw_pre",
-  "generatedAt": "2026-10-16T09:02:30+08:00",
+  "generatedAt": "2026-10-16T09:07:16+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
@@ -41,7 +41,7 @@
     "tw": {
       "label": "台股",
       "session": "tw_pre",
-      "updatedAt": "2026-10-16T09:02:30+08:00",
+      "updatedAt": "2026-10-16T09:07:16+08:00",
       "dataQuality": "7/7 檔有行情；正式法人完整 6 檔、融資 7 檔、借券 7 檔",
       "stats": [
         {
@@ -137,7 +137,7 @@
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-16T09:02:30+08:00",
+      "updatedAt": "2026-10-16T09:07:16+08:00",
       "dataQuality": "5/5 檔取得 Yahoo 或 Nasdaq fallback 行情；機構代理與財報仍需可驗證來源",
       "stats": [
         {
@@ -341,22 +341,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": 10443126,
             "foreign": -66504830,
             "trust": 7040812
           },
           "5": {
-            "dealer": 0,
+            "dealer": 12324280,
             "foreign": -88230643,
             "trust": 8421753
           },
           "10": {
-            "dealer": 0,
+            "dealer": 14578387,
             "foreign": -84118949,
             "trust": 10082501
           },
           "20": {
-            "dealer": 0,
+            "dealer": 19728004,
             "foreign": -88474804,
             "trust": 9942851
           }
@@ -380,10 +380,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 511857399,
+        "momPct": -0.5726315925897248,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": 54.64861207105231,
         "status": "available"
       },
       "screening": {
@@ -416,7 +416,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY +54.65%"
           },
           {
             "key": "catalyst",
@@ -464,22 +464,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": 459301,
             "foreign": -13406365,
             "trust": 911808
           },
           "5": {
-            "dealer": 0,
+            "dealer": 506912,
             "foreign": -18534826,
             "trust": 771141
           },
           "10": {
-            "dealer": 0,
+            "dealer": 597776,
             "foreign": -25962436,
             "trust": -180890
           },
           "20": {
-            "dealer": 0,
+            "dealer": 1780411,
             "foreign": -22412661,
             "trust": -291834
           }
@@ -503,10 +503,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 55399497,
+        "momPct": -13.685578104892326,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": 1.9684131750496783,
         "status": "available"
       },
       "screening": {
@@ -539,7 +539,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY +1.97%"
           },
           {
             "key": "catalyst",
@@ -587,22 +587,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": -321129,
             "foreign": -17896339,
             "trust": -1050984
           },
           "5": {
-            "dealer": 0,
+            "dealer": -310984,
             "foreign": -20928489,
             "trust": -1538108
           },
           "10": {
-            "dealer": 0,
+            "dealer": -173676,
             "foreign": -16654803,
             "trust": -460914
           },
           "20": {
-            "dealer": 0,
+            "dealer": 1686331,
             "foreign": -15525357,
             "trust": 5907879
           }
@@ -626,10 +626,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 65399563,
+        "momPct": 1.2595816164571392,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": 14.613858860431652,
         "status": "available"
       },
       "screening": {
@@ -662,7 +662,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY +14.61%"
           },
           {
             "key": "catalyst",
@@ -710,22 +710,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": 223265,
             "foreign": -2130138,
             "trust": -152302
           },
           "5": {
-            "dealer": 0,
+            "dealer": 231423,
             "foreign": -2374599,
             "trust": -78406
           },
           "10": {
-            "dealer": 0,
+            "dealer": 56864,
             "foreign": 473889,
             "trust": -1774870
           },
           "20": {
-            "dealer": 0,
+            "dealer": 358660,
             "foreign": 1758753,
             "trust": -3549919
           }
@@ -749,10 +749,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 6859602,
+        "momPct": 21.78823915413693,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": 206.46824005093208,
         "status": "available"
       },
       "screening": {
@@ -785,7 +785,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY +206.47%"
           },
           {
             "key": "catalyst",
@@ -832,22 +832,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": 10024504,
             "foreign": 30899510,
             "trust": 4298100
           },
           "5": {
-            "dealer": 0,
+            "dealer": 11991881,
             "foreign": 36729272,
             "trust": 4958240
           },
           "10": {
-            "dealer": 0,
+            "dealer": 14911031,
             "foreign": 39198627,
             "trust": 17182728
           },
           "20": {
-            "dealer": 0,
+            "dealer": 19904772,
             "foreign": 12839003,
             "trust": 51184846
           }
@@ -950,22 +950,22 @@
         "asOf": "2026-10-15",
         "periods": {
           "3": {
-            "dealer": 0,
+            "dealer": 9938238,
             "foreign": 7955613,
             "trust": 1125541
           },
           "5": {
-            "dealer": 0,
+            "dealer": 11467318,
             "foreign": 4756941,
             "trust": 2723572
           },
           "10": {
-            "dealer": 0,
+            "dealer": 15506498,
             "foreign": -16723158,
             "trust": 12750433
           },
           "20": {
-            "dealer": 0,
+            "dealer": 19399464,
             "foreign": -46446113,
             "trust": 44658363
           }
@@ -989,10 +989,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 8442029,
+        "momPct": -16.009305603698206,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": 29.842291836236242,
         "status": "available"
       },
       "screening": {
@@ -1025,7 +1025,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY +29.84%"
           },
           {
             "key": "catalyst",
@@ -1095,10 +1095,10 @@
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 0,
-        "momPct": 0,
+        "monthlyRevenue": 5128632,
+        "momPct": 7.6457020592259655,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 0,
+        "yoyPct": -13.126055194406469,
         "status": "available"
       },
       "screening": {
@@ -1131,7 +1131,7 @@
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY 0.00%"
+            "detail": "YoY -13.13%"
           },
           {
             "key": "catalyst",
