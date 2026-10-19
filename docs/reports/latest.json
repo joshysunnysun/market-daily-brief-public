@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "timezone": "Asia/Taipei",
   "session": "us_pre",
-  "generatedAt": "2026-10-19T21:07:17+08:00",
+  "generatedAt": "2026-10-20T02:53:48+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
       {
         "label": "加權指數",
-        "value": "46,822.08",
-        "detail": "1日 -0.61%｜5日 -5.03%｜20日 +2.12%",
-        "direction": "negative"
+        "value": "47,111.26",
+        "detail": "1日 +0.30%｜5日 -4.47%｜20日 +3.52%",
+        "direction": "positive"
       },
       {
         "label": "S&P 500",
-        "value": "7,659.44",
-        "detail": "1日 -1.09%｜5日 -1.95%｜20日 +0.12%",
-        "direction": "negative"
+        "value": "7,701.6",
+        "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+        "direction": "positive"
       },
       {
         "label": "合格候選",
@@ -28,11 +28,11 @@
     "notes": [
       {
         "title": "每日法人資金流目標",
-        "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2885 元大金、2886 兆豐金、1216 統一；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2344 華邦電。這是觀察名單，不等於買賣建議。"
+        "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2609 陽明、2885 元大金、2891 中信金；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2409 友達。這是觀察名單，不等於買賣建議。"
       },
       {
         "title": "美股觀察名單相對強弱",
-        "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
+        "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
       }
     ],
     "decision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。"
@@ -41,14 +41,14 @@
     "tw": {
       "label": "台股",
       "session": "tw_close",
-      "updatedAt": "2026-10-19T21:07:17+08:00",
+      "updatedAt": "2026-10-20T02:53:48+08:00",
       "dataQuality": "16/16 檔有行情；正式法人完整 15 檔、融資 16 檔、借券 16 檔",
       "stats": [
         {
           "label": "加權指數",
-          "value": "46,822.08",
-          "detail": "1日 -0.61%｜5日 -5.03%｜20日 +2.12%",
-          "direction": "negative"
+          "value": "47,111.26",
+          "detail": "1日 +0.30%｜5日 -4.47%｜20日 +3.52%",
+          "direction": "positive"
         },
         {
           "label": "追蹤股漲跌家數",
@@ -79,26 +79,26 @@
         {
           "label": "融資融券",
           "value": "16/16 檔",
-          "detail": "正式餘額截點 2026-10-19",
+          "detail": "正式餘額截點 2026-10-16",
           "direction": ""
         },
         {
           "label": "借券",
           "value": "16/16 檔",
-          "detail": "正式餘額截點 2026-10-19",
+          "detail": "正式餘額截點 2026-10-16",
           "direction": ""
         }
       ],
       "rotation": [
         {
+          "name": "2409 友達",
+          "ticker": "2409",
+          "value": 2.2284100363724413
+        },
+        {
           "name": "2884 玉山金",
           "ticker": "2884",
           "value": 0.40691137748365414
-        },
-        {
-          "name": "2886 兆豐金",
-          "ticker": "2886",
-          "value": 0.37244089403716263
         },
         {
           "name": "2308 台達電",
@@ -116,14 +116,14 @@
           "value": 0
         },
         {
-          "name": "1216 統一",
-          "ticker": "1216",
-          "value": 0
-        },
-        {
           "name": "2002 中鋼",
           "ticker": "2002",
           "value": -0.255750583180403
+        },
+        {
+          "name": "2891 中信金",
+          "ticker": "2891",
+          "value": -0.2717349896583343
         },
         {
           "name": "5880 合庫金",
@@ -151,6 +151,11 @@
           "value": -1.6460967798618276
         },
         {
+          "name": "2609 陽明",
+          "ticker": "2609",
+          "value": -1.854709435615809
+        },
+        {
           "name": "6488 環球晶",
           "ticker": "6488",
           "value": -2.2172949002217335
@@ -164,21 +169,16 @@
           "name": "6770 力積電",
           "ticker": "6770",
           "value": -2.971768067323677
-        },
-        {
-          "name": "2344 華邦電",
-          "ticker": "2344",
-          "value": -3.7151702786377694
         }
       ],
       "notes": [
         {
           "title": "每日法人資金流目標",
-          "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2885 元大金、2886 兆豐金、1216 統一；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2344 華邦電。這是觀察名單，不等於買賣建議。"
+          "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2609 陽明、2885 元大金、2891 中信金；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2409 友達。這是觀察名單，不等於買賣建議。"
         },
         {
           "title": "台股觀察名單相對強弱",
-          "text": "2884 玉山金 單日 +0.41% 最強；2344 華邦電 -3.72% 最弱。點選排行可查看完整證據。"
+          "text": "2409 友達 單日 +2.23% 最強；6770 力積電 -2.97% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
@@ -192,34 +192,34 @@
     "us": {
       "label": "美股",
       "session": "us_pre",
-      "updatedAt": "2026-10-19T21:07:17+08:00",
+      "updatedAt": "2026-10-20T02:53:48+08:00",
       "dataQuality": "5/5 檔有行情；財報 5/5 檔（SEC 0、Nasdaq 摘要 5），機構代理仍待可驗證來源",
       "stats": [
         {
           "label": "S&P 500",
-          "value": "7,659.44",
-          "detail": "1日 -1.09%｜5日 -1.95%｜20日 +0.12%",
-          "direction": "negative"
+          "value": "7,701.6",
+          "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+          "direction": "positive"
         },
         {
           "label": "Nasdaq",
-          "value": "26,140.03",
-          "detail": "1日 -2.15%｜5日 -4.48%｜20日 -1.44%",
-          "direction": "negative"
+          "value": "26,460.45",
+          "detail": "1日 +1.23%｜5日 -2.88%｜20日 -2.44%",
+          "direction": "positive"
         },
         {
           "label": "費城半導體",
-          "value": "11,137.29",
-          "detail": "1日 -3.83%｜5日 -11.41%｜20日 -6.58%",
-          "direction": "negative"
+          "value": "11,349.94",
+          "detail": "1日 +1.91%｜5日 -7.25%｜20日 -8.71%",
+          "direction": "positive"
         }
       ],
       "signals": [
         {
           "label": "追蹤股漲跌家數",
-          "value": "0 ↑ / 5 ↓",
+          "value": "5 ↑ / 0 ↓",
           "detail": "5 檔取得有效行情",
-          "direction": "negative"
+          "direction": "positive"
         },
         {
           "label": "Nasdaq fallback",
@@ -236,35 +236,35 @@
       ],
       "rotation": [
         {
-          "name": "NVDA NVIDIA",
-          "ticker": "NVDA",
-          "value": -1.427054691201457
-        },
-        {
           "name": "TSLA Tesla",
           "ticker": "TSLA",
-          "value": -2.1300080478702577
-        },
-        {
-          "name": "AVGO Broadcom",
-          "ticker": "AVGO",
-          "value": -4.524725460991997
+          "value": 3.9101249068156596
         },
         {
           "name": "MU Micron",
           "ticker": "MU",
-          "value": -5.626902187235128
+          "value": 3.110928844291383
         },
         {
           "name": "AMD AMD",
           "ticker": "AMD",
-          "value": -5.954855064974762
+          "value": 2.241303283835694
+        },
+        {
+          "name": "AVGO Broadcom",
+          "ticker": "AVGO",
+          "value": 2.0228118316302224
+        },
+        {
+          "name": "NVDA NVIDIA",
+          "ticker": "NVDA",
+          "value": 1.4430468721941647
         }
       ],
       "notes": [
         {
           "title": "美股觀察名單相對強弱",
-          "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
+          "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
@@ -279,15 +279,15 @@
   "marketStats": [
     {
       "label": "加權指數",
-      "value": "46,822.08",
-      "detail": "1日 -0.61%｜5日 -5.03%｜20日 +2.12%",
-      "direction": "negative"
+      "value": "47,111.26",
+      "detail": "1日 +0.30%｜5日 -4.47%｜20日 +3.52%",
+      "direction": "positive"
     },
     {
       "label": "S&P 500",
-      "value": "7,659.44",
-      "detail": "1日 -1.09%｜5日 -1.95%｜20日 +0.12%",
-      "direction": "negative"
+      "value": "7,701.6",
+      "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+      "direction": "positive"
     },
     {
       "label": "合格候選",
@@ -298,39 +298,39 @@
   ],
   "rotation": [
     {
-      "name": "NVDA NVIDIA",
-      "ticker": "NVDA",
-      "value": -1.427054691201457
-    },
-    {
       "name": "TSLA Tesla",
       "ticker": "TSLA",
-      "value": -2.1300080478702577
-    },
-    {
-      "name": "AVGO Broadcom",
-      "ticker": "AVGO",
-      "value": -4.524725460991997
+      "value": 3.9101249068156596
     },
     {
       "name": "MU Micron",
       "ticker": "MU",
-      "value": -5.626902187235128
+      "value": 3.110928844291383
     },
     {
       "name": "AMD AMD",
       "ticker": "AMD",
-      "value": -5.954855064974762
+      "value": 2.241303283835694
+    },
+    {
+      "name": "AVGO Broadcom",
+      "ticker": "AVGO",
+      "value": 2.0228118316302224
+    },
+    {
+      "name": "NVDA NVIDIA",
+      "ticker": "NVDA",
+      "value": 1.4430468721941647
     }
   ],
   "notes": [
     {
       "title": "每日法人資金流目標",
-      "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2885 元大金、2886 兆豐金、1216 統一；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2344 華邦電。這是觀察名單，不等於買賣建議。"
+      "text": "依 TWSE／TPEx 正式資料的近 5 日三大法人合計，淨流入 2002 中鋼、5880 合庫金、2609 陽明、2885 元大金、2891 中信金；淨流出 6770 力積電、2408 南亞科、2303 聯電、2330 台積電、2409 友達。這是觀察名單，不等於買賣建議。"
     },
     {
       "title": "美股觀察名單相對強弱",
-      "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
+      "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
     }
   ],
   "marketDecision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。",
@@ -370,11 +370,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "outflow",
         "label": "法人淨流出",
-        "netFlow1d": -4603972,
-        "netFlow": -75996694,
+        "netFlow1d": -22371830,
+        "netFlow": -78856164,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -389,46 +389,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 2420,
-        "volumeRatio": 1.1850110710162673
+        "volumeRatio": 1.0272756035932635
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 7726118,
-            "foreign": -65992218,
-            "trust": 7829814
+            "dealer": 6915459,
+            "foreign": -62909748,
+            "trust": 4745728
           },
           "5": {
-            "dealer": 10753363,
-            "foreign": -98385683,
-            "trust": 11635626
+            "dealer": 10778504,
+            "foreign": -97973798,
+            "trust": 8339130
           },
           "10": {
-            "dealer": 13969214,
-            "foreign": -113176558,
-            "trust": 13827187
+            "dealer": 12939931,
+            "foreign": -109255821,
+            "trust": 10196291
           },
           "20": {
-            "dealer": 18925478,
-            "foreign": -107384517,
-            "trust": 14384970
+            "dealer": 18341529,
+            "foreign": -106294186,
+            "trust": 10666939
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 34110,
         "change": -113,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 12933514,
-        "change": 21000,
+        "asOf": "2026-10-16",
+        "balance": 12912514,
+        "change": 115000,
         "source": "TWSE",
         "status": "available"
       },
@@ -464,7 +464,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 12,933,514"
+            "detail": "餘額 12,912,514"
           },
           {
             "key": "monthlyRevenue",
@@ -512,46 +512,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 4205,
-        "volumeRatio": 0.8403372843844503
+        "volumeRatio": 0.7186860401645665
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": -133680,
-            "foreign": -9659948,
-            "trust": 1082156
+            "dealer": 96966,
+            "foreign": -12019347,
+            "trust": 1155554
           },
           "5": {
-            "dealer": 13256,
-            "foreign": -16181906,
-            "trust": 1548604
+            "dealer": 363436,
+            "foreign": -17135646,
+            "trust": 1399220
           },
           "10": {
-            "dealer": 83722,
-            "foreign": -26694418,
-            "trust": 198054
+            "dealer": 291786,
+            "foreign": -27012893,
+            "trust": 257000
           },
           "20": {
-            "dealer": 1083756,
-            "foreign": -25185231,
-            "trust": 847171
+            "dealer": 1513087,
+            "foreign": -23035003,
+            "trust": 198284
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 11757,
         "change": 110,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 7648000,
-        "change": 43000,
+        "asOf": "2026-10-16",
+        "balance": 7605000,
+        "change": 25000,
         "source": "TWSE",
         "status": "available"
       },
@@ -587,7 +587,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 7,648,000"
+            "detail": "餘額 7,605,000"
           },
           {
             "key": "monthlyRevenue",
@@ -635,46 +635,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 1640,
-        "volumeRatio": 0.711377784678451
+        "volumeRatio": 0.6396815859901772
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": -813989,
-            "foreign": -13798974,
-            "trust": 1306373
+            "dealer": -266771,
+            "foreign": -14200068,
+            "trust": 498077
           },
           "5": {
-            "dealer": -1039897,
-            "foreign": -20864317,
-            "trust": -326878
+            "dealer": -455441,
+            "foreign": -21893477,
+            "trust": -1804653
           },
           "10": {
-            "dealer": -893464,
-            "foreign": -17355887,
-            "trust": 61532
+            "dealer": -293782,
+            "foreign": -18061888,
+            "trust": -486652
           },
           "20": {
-            "dealer": 993665,
-            "foreign": -19495996,
-            "trust": 7044436
+            "dealer": 1298382,
+            "foreign": -19505304,
+            "trust": 6963779
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 10571,
         "change": 178,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 11253833,
-        "change": 591000,
+        "asOf": "2026-10-16",
+        "balance": 10662833,
+        "change": 267000,
         "source": "TWSE",
         "status": "available"
       },
@@ -710,7 +710,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 11,253,833"
+            "detail": "餘額 10,662,833"
           },
           {
             "key": "monthlyRevenue",
@@ -758,46 +758,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 2005,
-        "volumeRatio": 0.80116264804268
+        "volumeRatio": 0.768716409053063
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 186120,
-            "foreign": -2397967,
-            "trust": 208427
+            "dealer": 196913,
+            "foreign": -2311308,
+            "trust": 189441
           },
           "5": {
-            "dealer": 278599,
-            "foreign": -3137838,
-            "trust": -14375
+            "dealer": 303073,
+            "foreign": -3039776,
+            "trust": 32837
           },
           "10": {
-            "dealer": 20422,
-            "foreign": -1847911,
-            "trust": 12608
+            "dealer": 30048,
+            "foreign": -550686,
+            "trust": -448762
           },
           "20": {
-            "dealer": 391129,
-            "foreign": 927378,
-            "trust": -3424631
+            "dealer": 386715,
+            "foreign": 1115381,
+            "trust": -3402964
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 1559,
         "change": 2,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 1271833,
-        "change": 69000,
+        "asOf": "2026-10-16",
+        "balance": 1202833,
+        "change": -152632,
         "source": "TWSE",
         "status": "available"
       },
@@ -833,7 +833,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 1,271,833"
+            "detail": "餘額 1,202,833"
           },
           {
             "key": "monthlyRevenue",
@@ -880,46 +880,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 49.349998474121094,
-        "volumeRatio": 1.0830494361051357
+        "volumeRatio": 1.072601887218066
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 12710108,
-            "foreign": 12992477,
-            "trust": 15058151
+            "dealer": 9053532,
+            "foreign": 28614302,
+            "trust": 6592286
           },
           "5": {
-            "dealer": 15403902,
-            "foreign": 33539338,
-            "trust": 13555251
+            "dealer": 12588240,
+            "foreign": 46122169,
+            "trust": 6301286
           },
           "10": {
-            "dealer": 18378552,
-            "foreign": 50322183,
-            "trust": 12578920
+            "dealer": 15623235,
+            "foreign": 47935290,
+            "trust": 11276914
           },
           "20": {
-            "dealer": 24733699,
-            "foreign": 18481940,
-            "trust": 48031997
+            "dealer": 20836760,
+            "foreign": 27466715,
+            "trust": 48726032
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 5556,
         "change": -130,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 133939852,
-        "change": -705000,
+        "asOf": "2026-10-16",
+        "balance": 134644852,
+        "change": 2226000,
         "source": "TWSE",
         "status": "available"
       },
@@ -955,7 +955,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 133,939,852"
+            "detail": "餘額 134,644,852"
           },
           {
             "key": "monthlyRevenue",
@@ -1002,46 +1002,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 45.25,
-        "volumeRatio": 0.9235960431784559
+        "volumeRatio": 0.9182231373218583
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 12697300,
-            "foreign": 10080817,
-            "trust": 1168169
+            "dealer": 8767207,
+            "foreign": 8124813,
+            "trust": 163602
           },
           "5": {
-            "dealer": 15079760,
-            "foreign": 468683,
-            "trust": 2248710
+            "dealer": 11365882,
+            "foreign": 11711808,
+            "trust": 1734602
           },
           "10": {
-            "dealer": 17918944,
-            "foreign": -13191874,
-            "trust": 8561423
+            "dealer": 15512388,
+            "foreign": -9105865,
+            "trust": 9599494
           },
           "20": {
-            "dealer": 24071219,
-            "foreign": -37855644,
-            "trust": 26261532
+            "dealer": 20599567,
+            "foreign": -44952506,
+            "trust": 41463424
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 5822,
         "change": -1175,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 62877865,
-        "change": 3198000,
+        "asOf": "2026-10-16",
+        "balance": 59679865,
+        "change": 1266000,
         "source": "TWSE",
         "status": "available"
       },
@@ -1077,7 +1077,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 62,877,865"
+            "detail": "餘額 59,679,865"
           },
           {
             "key": "monthlyRevenue",
@@ -1124,7 +1124,7 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 882,
-        "volumeRatio": 0.8732281407048975
+        "volumeRatio": 0.7997675453874092
       },
       "institutional": {
         "asOf": null,
@@ -1138,16 +1138,16 @@
         "status": "insufficient"
       },
       "margin": {
-        "asOf": "2026-10-19",
-        "balance": 13969,
-        "change": -8,
+        "asOf": "2026-10-16",
+        "balance": 12811,
+        "change": -1158,
         "source": "TPEx",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 15708000,
-        "change": -1292000,
+        "asOf": "2026-10-16",
+        "balance": 13520000,
+        "change": -2188000,
         "source": "TPEx",
         "status": "available"
       },
@@ -1177,13 +1177,13 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 13,969"
+            "detail": "餘額 12,811"
           },
           {
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 15,708,000"
+            "detail": "餘額 13,520,000"
           },
           {
             "key": "monthlyRevenue",
@@ -1221,17 +1221,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-16",
+        "asOf": "2026-10-19",
         "currency": "USD",
         "returns": {
-          "d1": -1.427054691201457,
-          "d5": -6.607638685076777,
-          "d20": -3.6622122792917877
+          "d1": 1.4430468721941647,
+          "d5": -4.020857992673732,
+          "d20": -4.468292481278491
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 214.1300048828125,
-        "volumeRatio": 1.1155839766439712
+        "value": 217.22000122070312,
+        "volumeRatio": 0.6349552797408629
       },
       "institutional": {
         "status": "not_applicable",
@@ -1262,7 +1262,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -3.66%"
+            "detail": "Yahoo Finance，20 日 -4.47%"
           },
           {
             "key": "financials",
@@ -1286,7 +1286,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -3.66%，上限 18%"
+            "detail": "20 日 -4.47%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1307,17 +1307,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-16",
+        "asOf": "2026-10-19",
         "currency": "USD",
         "returns": {
-          "d1": -4.524725460991997,
-          "d5": -9.069538023437772,
-          "d20": -8.070240355059033
+          "d1": 2.0228118316302224,
+          "d5": -5.449219544773376,
+          "d20": -7.516684908828042
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 328.75,
-        "volumeRatio": 1.2899845347135799
+        "value": 335.3999938964844,
+        "volumeRatio": 0.4248625666510598
       },
       "institutional": {
         "status": "not_applicable",
@@ -1348,7 +1348,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -8.07%"
+            "detail": "Yahoo Finance，20 日 -7.52%"
           },
           {
             "key": "financials",
@@ -1372,7 +1372,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -8.07%，上限 18%"
+            "detail": "20 日 -7.52%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1393,17 +1393,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-16",
+        "asOf": "2026-10-19",
         "currency": "USD",
         "returns": {
-          "d1": -5.626902187235128,
-          "d5": -14.592805942131315,
-          "d20": -13.482965404938941
+          "d1": 3.110928844291383,
+          "d5": -8.377807279996441,
+          "d20": -13.197809432047258
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 878.8400268554688,
-        "volumeRatio": 1.1121574311484703
+        "value": 906.1801147460938,
+        "volumeRatio": 0.7377743640221476
       },
       "institutional": {
         "status": "not_applicable",
@@ -1434,7 +1434,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -13.48%"
+            "detail": "Yahoo Finance，20 日 -13.20%"
           },
           {
             "key": "financials",
@@ -1458,7 +1458,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -13.48%，上限 18%"
+            "detail": "20 日 -13.20%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1479,17 +1479,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-16",
+        "asOf": "2026-10-19",
         "currency": "USD",
         "returns": {
-          "d1": -2.1300080478702577,
-          "d5": -7.3112124624630574,
-          "d20": -2.6216784475787014
+          "d1": 3.9101249068156596,
+          "d5": -2.4971569642327607,
+          "d20": -1.7879007922535939
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 354.7200012207031,
-        "volumeRatio": 1.8211166207989449
+        "value": 368.5899963378906,
+        "volumeRatio": 0.8453846926155895
       },
       "institutional": {
         "status": "not_applicable",
@@ -1520,7 +1520,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -2.62%"
+            "detail": "Yahoo Finance，20 日 -1.79%"
           },
           {
             "key": "financials",
@@ -1544,7 +1544,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -2.62%，上限 18%"
+            "detail": "20 日 -1.79%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1565,17 +1565,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-16",
+        "asOf": "2026-10-19",
         "currency": "USD",
         "returns": {
-          "d1": -5.954855064974762,
-          "d5": -13.048837160284288,
-          "d20": -5.54999944941671
+          "d1": 2.241303283835694,
+          "d5": -9.026504443085004,
+          "d20": -12.171680211965075
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 528.75,
-        "volumeRatio": 1.0347563776484743
+        "value": 540.6008911132812,
+        "volumeRatio": 0.7105371615558546
       },
       "institutional": {
         "status": "not_applicable",
@@ -1606,7 +1606,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -5.55%"
+            "detail": "Yahoo Finance，20 日 -12.17%"
           },
           {
             "key": "financials",
@@ -1630,7 +1630,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -5.55%，上限 18%"
+            "detail": "20 日 -12.17%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1649,11 +1649,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "inflow",
         "label": "法人淨流入",
-        "netFlow1d": 9580343,
-        "netFlow": 149406082,
+        "netFlow1d": 44262671,
+        "netFlow": 170454735,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -1669,46 +1669,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 19.5,
-        "volumeRatio": 1.1082844478260898
+        "volumeRatio": 1.1064235637073587
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": -797434,
-            "foreign": 57872844,
-            "trust": 127000
+            "dealer": 2310153,
+            "foreign": 124857052,
+            "trust": 35000
           },
           "5": {
-            "dealer": 1573977,
-            "foreign": 147711105,
-            "trust": 121000
+            "dealer": 2772439,
+            "foreign": 167654296,
+            "trust": 28000
           },
           "10": {
-            "dealer": 2465309,
-            "foreign": 175600653,
-            "trust": -357000
+            "dealer": 3129846,
+            "foreign": 168578484,
+            "trust": -494000
           },
           "20": {
-            "dealer": 4337040,
-            "foreign": 174544354,
-            "trust": -388422
+            "dealer": 5004094,
+            "foreign": 148042453,
+            "trust": -4499422
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 40628,
         "change": 800,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 422109500,
-        "change": 777000,
+        "asOf": "2026-10-16",
+        "balance": 421332500,
+        "change": -6981000,
         "source": "TWSE",
         "status": "available"
       },
@@ -1744,7 +1744,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 422,109,500"
+            "detail": "餘額 421,332,500"
           },
           {
             "key": "monthlyRevenue",
@@ -1781,11 +1781,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "inflow",
         "label": "法人淨流入",
-        "netFlow1d": 6978605,
-        "netFlow": 82485389,
+        "netFlow1d": 22810004,
+        "netFlow": 82391063,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -1801,46 +1801,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 28.049999237060547,
-        "volumeRatio": 1.0663998578924327
+        "volumeRatio": 1.0567656102925556
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 3806706,
-            "foreign": 47121192,
-            "trust": 8548893
+            "dealer": 3298299,
+            "foreign": 46929694,
+            "trust": 4135053
           },
           "5": {
-            "dealer": 4610666,
-            "foreign": 68498777,
-            "trust": 9375946
+            "dealer": 4496622,
+            "foreign": 73249388,
+            "trust": 4645053
           },
           "10": {
-            "dealer": 5109249,
-            "foreign": 77710707,
-            "trust": 9174281
+            "dealer": 4456907,
+            "foreign": 78650085,
+            "trust": 4656388
           },
           "20": {
-            "dealer": 10076969,
-            "foreign": 79957815,
-            "trust": 9019678
+            "dealer": 9723218,
+            "foreign": 79723744,
+            "trust": 7103785
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 1174,
         "change": -177,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 24734375,
-        "change": -1349000,
+        "asOf": "2026-10-16",
+        "balance": 26083375,
+        "change": 398000,
         "source": "TWSE",
         "status": "available"
       },
@@ -1876,7 +1876,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 24,734,375"
+            "detail": "餘額 26,083,375"
           },
           {
             "key": "monthlyRevenue",
@@ -1902,6 +1902,138 @@
       }
     },
     {
+      "ticker": "2609",
+      "symbol": "2609.TW",
+      "name": "陽明",
+      "exchange": "TWSE",
+      "company": "每日正式法人資金流自動掃描標的",
+      "themes": [
+        "法人資金流"
+      ],
+      "catalysts": [],
+      "market": "tw",
+      "discovery": {
+        "asOf": "2026-10-16",
+        "direction": "inflow",
+        "label": "法人淨流入",
+        "netFlow1d": 15030498,
+        "netFlow": 82296535,
+        "periodDays": 5,
+        "source": "TWSE"
+      },
+      "configured": false,
+      "price": {
+        "asOf": "2026-10-19",
+        "currency": "TWD",
+        "returns": {
+          "d1": -1.854709435615809,
+          "d5": -0.15723030899408297,
+          "d20": 5.481726237937368
+        },
+        "source": "Yahoo Finance",
+        "status": "available",
+        "value": 63.5,
+        "volumeRatio": 0.5037579976536339
+      },
+      "institutional": {
+        "asOf": "2026-10-16",
+        "periods": {
+          "3": {
+            "dealer": -824388,
+            "foreign": 31091527,
+            "trust": 2577000
+          },
+          "5": {
+            "dealer": 560458,
+            "foreign": 73075077,
+            "trust": 8661000
+          },
+          "10": {
+            "dealer": 1025531,
+            "foreign": 86767491,
+            "trust": 8413000
+          },
+          "20": {
+            "dealer": 2152297,
+            "foreign": 129482160,
+            "trust": 8146428
+          }
+        },
+        "source": "TWSE",
+        "status": "available"
+      },
+      "margin": {
+        "asOf": "2026-10-16",
+        "balance": 28128,
+        "change": -747,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "lending": {
+        "asOf": "2026-10-16",
+        "balance": 1956000,
+        "change": -462000,
+        "source": "TWSE",
+        "status": "available"
+      },
+      "financials": {
+        "asOf": "11509",
+        "monthlyRevenue": 21699526,
+        "momPct": 0.4073899047094547,
+        "source": "MOPS monthly revenue open data",
+        "yoyPct": 69.93539181535685,
+        "status": "available"
+      },
+      "screening": {
+        "checks": [
+          {
+            "key": "price",
+            "label": "價格資料",
+            "status": "pass",
+            "detail": "Yahoo Finance，20 日 +5.48%"
+          },
+          {
+            "key": "institutionalPeriods",
+            "label": "法人 3／5／10／20 日",
+            "status": "pass",
+            "detail": "正式逐日資料已完整累積"
+          },
+          {
+            "key": "margin",
+            "label": "融資資料",
+            "status": "pass",
+            "detail": "餘額 28,128"
+          },
+          {
+            "key": "lending",
+            "label": "借券資料",
+            "status": "pass",
+            "detail": "餘額 1,956,000"
+          },
+          {
+            "key": "monthlyRevenue",
+            "label": "MOPS 月營收",
+            "status": "pass",
+            "detail": "YoY +69.94%"
+          },
+          {
+            "key": "catalyst",
+            "label": "催化劑",
+            "status": "missing",
+            "detail": "沒有已核對日期與來源的催化劑"
+          },
+          {
+            "key": "maximum20DayReturnPct",
+            "label": "避免追高",
+            "status": "pass",
+            "detail": "20 日 +5.48%，上限 18%"
+          }
+        ],
+        "eligible": false,
+        "reason": "必要資料或門檻未全部通過，不列入候選"
+      }
+    },
+    {
       "ticker": "2885",
       "symbol": "2885.TW",
       "name": "元大金",
@@ -1913,11 +2045,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "inflow",
         "label": "法人淨流入",
-        "netFlow1d": 1427377,
-        "netFlow": 69800177,
+        "netFlow1d": 7578553,
+        "netFlow": 82137020,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -1933,46 +2065,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 71.69999694824219,
-        "volumeRatio": 0.8734350751201158
+        "volumeRatio": 0.8653237803060567
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 7922457,
-            "foreign": 17613276,
-            "trust": -2236830
+            "dealer": 5295198,
+            "foreign": 37550387,
+            "trust": 1138114
           },
           "5": {
-            "dealer": 10015617,
-            "foreign": 59320058,
-            "trust": 464502
+            "dealer": 8086280,
+            "foreign": 69992213,
+            "trust": 4058527
           },
           "10": {
-            "dealer": 13834671,
-            "foreign": 85835940,
-            "trust": 2585762
+            "dealer": 11836506,
+            "foreign": 74610651,
+            "trust": 7362142
           },
           "20": {
-            "dealer": 18164040,
-            "foreign": 77923685,
-            "trust": -9563651
+            "dealer": 15521490,
+            "foreign": 77060829,
+            "trust": -6368626
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 1299,
         "change": 167,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 19129900,
-        "change": 936000,
+        "asOf": "2026-10-16",
+        "balance": 18193900,
+        "change": -2500906,
         "source": "TWSE",
         "status": "available"
       },
@@ -2008,7 +2140,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 19,129,900"
+            "detail": "餘額 18,193,900"
           },
           {
             "key": "monthlyRevenue",
@@ -2034,9 +2166,9 @@
       }
     },
     {
-      "ticker": "2886",
-      "symbol": "2886.TW",
-      "name": "兆豐金",
+      "ticker": "2891",
+      "symbol": "2891.TW",
+      "name": "中信金",
       "exchange": "TWSE",
       "company": "每日正式法人資金流自動掃描標的",
       "themes": [
@@ -2045,11 +2177,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "inflow",
         "label": "法人淨流入",
-        "netFlow1d": 7412232,
-        "netFlow": 69113983,
+        "netFlow1d": 9421295,
+        "netFlow": 75183402,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -2058,62 +2190,62 @@
         "asOf": "2026-10-19",
         "currency": "TWD",
         "returns": {
-          "d1": 0.37244089403716263,
-          "d5": 7.800003051757809,
-          "d20": 5.893909450031587
+          "d1": -0.2717349896583343,
+          "d5": 5.1575907116388375,
+          "d20": 3.6723140706934387
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 53.900001525878906,
-        "volumeRatio": 1.0114427533868338
+        "value": 73.4000015258789,
+        "volumeRatio": 1.0294635863124788
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 13724169,
-            "foreign": 37117149,
-            "trust": 2455817
+            "dealer": 10498013,
+            "foreign": 17093566,
+            "trust": -2661032
           },
           "5": {
-            "dealer": 15567220,
-            "foreign": 63734090,
-            "trust": -10187327
+            "dealer": 13983980,
+            "foreign": 46158454,
+            "trust": 15040968
           },
           "10": {
-            "dealer": 19235800,
-            "foreign": 105168101,
-            "trust": -37402581
+            "dealer": 17932709,
+            "foreign": 40011429,
+            "trust": 22472857
           },
           "20": {
-            "dealer": 27286407,
-            "foreign": 150938614,
-            "trust": -44338120
+            "dealer": 25155501,
+            "foreign": 23021210,
+            "trust": 44430489
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
-        "balance": 2293,
-        "change": -54,
+        "asOf": "2026-10-16",
+        "balance": 2474,
+        "change": 170,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 22589638,
-        "change": -3682000,
+        "asOf": "2026-10-16",
+        "balance": 214472660,
+        "change": 5444000,
         "source": "TWSE",
         "status": "available"
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 8344036,
-        "momPct": 7.030915690171978,
+        "monthlyRevenue": 21331939,
+        "momPct": -12.579426952652804,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 16.451900087938668,
+        "yoyPct": 12.819080928036378,
         "status": "available"
       },
       "screening": {
@@ -2122,7 +2254,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +5.89%"
+            "detail": "Yahoo Finance，20 日 +3.67%"
           },
           {
             "key": "institutionalPeriods",
@@ -2134,19 +2266,19 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 2,293"
+            "detail": "餘額 2,474"
           },
           {
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 22,589,638"
+            "detail": "餘額 214,472,660"
           },
           {
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY +16.45%"
+            "detail": "YoY +12.82%"
           },
           {
             "key": "catalyst",
@@ -2158,139 +2290,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +5.89%，上限 18%"
-          }
-        ],
-        "eligible": false,
-        "reason": "必要資料或門檻未全部通過，不列入候選"
-      }
-    },
-    {
-      "ticker": "1216",
-      "symbol": "1216.TW",
-      "name": "統一",
-      "exchange": "TWSE",
-      "company": "每日正式法人資金流自動掃描標的",
-      "themes": [
-        "法人資金流"
-      ],
-      "catalysts": [],
-      "market": "tw",
-      "discovery": {
-        "asOf": "2026-10-19",
-        "direction": "inflow",
-        "label": "法人淨流入",
-        "netFlow1d": 6605887,
-        "netFlow": 64673542,
-        "periodDays": 5,
-        "source": "TWSE"
-      },
-      "configured": false,
-      "price": {
-        "asOf": "2026-10-19",
-        "currency": "TWD",
-        "returns": {
-          "d1": 0,
-          "d5": 4.73684009752775,
-          "d20": 6.845635535733008
-        },
-        "source": "Yahoo Finance",
-        "status": "available",
-        "value": 79.5999984741211,
-        "volumeRatio": 1.4110247030150047
-      },
-      "institutional": {
-        "asOf": "2026-10-19",
-        "periods": {
-          "3": {
-            "dealer": 5875344,
-            "foreign": 35723800,
-            "trust": 2612793
-          },
-          "5": {
-            "dealer": 7000377,
-            "foreign": 51271269,
-            "trust": 6401896
-          },
-          "10": {
-            "dealer": 8132717,
-            "foreign": 66033354,
-            "trust": 12214682
-          },
-          "20": {
-            "dealer": 11129086,
-            "foreign": 54482656,
-            "trust": 9102221
-          }
-        },
-        "source": "TWSE",
-        "status": "available"
-      },
-      "margin": {
-        "asOf": "2026-10-19",
-        "balance": 407,
-        "change": 19,
-        "source": "TWSE",
-        "status": "available"
-      },
-      "lending": {
-        "asOf": "2026-10-19",
-        "balance": 29454842,
-        "change": -8165000,
-        "source": "TWSE",
-        "status": "available"
-      },
-      "financials": {
-        "asOf": "11509",
-        "monthlyRevenue": 61805124,
-        "momPct": -2.054029301039748,
-        "source": "MOPS monthly revenue open data",
-        "yoyPct": 5.80345101559126,
-        "status": "available"
-      },
-      "screening": {
-        "checks": [
-          {
-            "key": "price",
-            "label": "價格資料",
-            "status": "pass",
-            "detail": "Yahoo Finance，20 日 +6.85%"
-          },
-          {
-            "key": "institutionalPeriods",
-            "label": "法人 3／5／10／20 日",
-            "status": "pass",
-            "detail": "正式逐日資料已完整累積"
-          },
-          {
-            "key": "margin",
-            "label": "融資資料",
-            "status": "pass",
-            "detail": "餘額 407"
-          },
-          {
-            "key": "lending",
-            "label": "借券資料",
-            "status": "pass",
-            "detail": "餘額 29,454,842"
-          },
-          {
-            "key": "monthlyRevenue",
-            "label": "MOPS 月營收",
-            "status": "pass",
-            "detail": "YoY +5.80%"
-          },
-          {
-            "key": "catalyst",
-            "label": "催化劑",
-            "status": "missing",
-            "detail": "沒有已核對日期與來源的催化劑"
-          },
-          {
-            "key": "maximum20DayReturnPct",
-            "label": "避免追高",
-            "status": "pass",
-            "detail": "20 日 +6.85%，上限 18%"
+            "detail": "20 日 +3.67%，上限 18%"
           }
         ],
         "eligible": false,
@@ -2309,11 +2309,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "outflow",
         "label": "法人淨流出",
-        "netFlow1d": -35322743,
-        "netFlow": -213466810,
+        "netFlow1d": 5441046,
+        "netFlow": -201367132,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -2329,46 +2329,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 65.30000305175781,
-        "volumeRatio": 0.9519019805018201
+        "volumeRatio": 0.9419009847194015
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": -5538645,
-            "foreign": -133072057,
-            "trust": 12890253
+            "dealer": -181667,
+            "foreign": -70823871,
+            "trust": 175609
           },
           "5": {
-            "dealer": -10828582,
-            "foreign": -215118481,
-            "trust": 12480253
+            "dealer": -9900643,
+            "foreign": -191230098,
+            "trust": -236391
           },
           "10": {
-            "dealer": -18947488,
-            "foreign": -326815675,
-            "trust": 12220402
+            "dealer": -13124134,
+            "foreign": -234914057,
+            "trust": -285304
           },
           "20": {
-            "dealer": -778723,
-            "foreign": -144900320,
-            "trust": 16368914
+            "dealer": 2845620,
+            "foreign": -55793791,
+            "trust": 4017270
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 137057,
         "change": -662,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 204901158,
-        "change": 24412000,
+        "asOf": "2026-10-16",
+        "balance": 180489158,
+        "change": 2067000,
         "source": "TWSE",
         "status": "available"
       },
@@ -2404,7 +2404,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 204,901,158"
+            "detail": "餘額 180,489,158"
           },
           {
             "key": "monthlyRevenue",
@@ -2441,11 +2441,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "outflow",
         "label": "法人淨流出",
-        "netFlow1d": -5690860,
-        "netFlow": -107656350,
+        "netFlow1d": -7351001,
+        "netFlow": -104340210,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -2461,46 +2461,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 436,
-        "volumeRatio": 0.8782489720705086
+        "volumeRatio": 0.841758864393741
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 1954798,
-            "foreign": -28460331,
-            "trust": -10040801
+            "dealer": 306531,
+            "foreign": -45905021,
+            "trust": -10332918
           },
           "5": {
-            "dealer": -1900365,
-            "foreign": -92873950,
-            "trust": -12882035
+            "dealer": -2055253,
+            "foreign": -90199039,
+            "trust": -12085918
           },
           "10": {
-            "dealer": -1088891,
-            "foreign": -77539185,
-            "trust": -16254720
+            "dealer": -1039165,
+            "foreign": -64845225,
+            "trust": -14577021
           },
           "20": {
-            "dealer": 460153,
-            "foreign": -40114437,
-            "trust": -14026777
+            "dealer": 893718,
+            "foreign": -28083449,
+            "trust": -12662660
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 63424,
         "change": 3370,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 86093350,
-        "change": 7548000,
+        "asOf": "2026-10-16",
+        "balance": 78545350,
+        "change": 11924000,
         "source": "TWSE",
         "status": "available"
       },
@@ -2536,7 +2536,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 86,093,350"
+            "detail": "餘額 78,545,350"
           },
           {
             "key": "monthlyRevenue",
@@ -2573,11 +2573,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "outflow",
         "label": "法人淨流出",
-        "netFlow1d": -5276882,
-        "netFlow": -92502959,
+        "netFlow1d": -19703997,
+        "netFlow": -102087769,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -2593,46 +2593,46 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 131.5,
-        "volumeRatio": 0.8487834872602034
+        "volumeRatio": 0.8339712791214414
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": -6542757,
-            "foreign": -42488096,
-            "trust": -16636324
+            "dealer": -6964464,
+            "foreign": -52828707,
+            "trust": -22682191
           },
           "5": {
-            "dealer": -10053620,
-            "foreign": -61494626,
-            "trust": -20954713
+            "dealer": -12264946,
+            "foreign": -69373474,
+            "trust": -20449349
           },
           "10": {
-            "dealer": -11735108,
-            "foreign": -187002354,
-            "trust": -141965264
+            "dealer": -9668929,
+            "foreign": -177666867,
+            "trust": -140252431
           },
           "20": {
-            "dealer": 3997288,
-            "foreign": -134611589,
-            "trust": -74655808
+            "dealer": 5042869,
+            "foreign": -121981872,
+            "trust": -70896559
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "balance": 158897,
         "change": -71,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 109770275,
-        "change": -1420000,
+        "asOf": "2026-10-16",
+        "balance": 111190275,
+        "change": -3190000,
         "source": "TWSE",
         "status": "available"
       },
@@ -2668,7 +2668,7 @@
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 109,770,275"
+            "detail": "餘額 111,190,275"
           },
           {
             "key": "monthlyRevenue",
@@ -2694,9 +2694,9 @@
       }
     },
     {
-      "ticker": "2344",
-      "symbol": "2344.TW",
-      "name": "華邦電",
+      "ticker": "2409",
+      "symbol": "2409.TW",
+      "name": "友達",
       "exchange": "TWSE",
       "company": "每日正式法人資金流自動掃描標的",
       "themes": [
@@ -2705,11 +2705,11 @@
       "catalysts": [],
       "market": "tw",
       "discovery": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "direction": "outflow",
         "label": "法人淨流出",
-        "netFlow1d": -10374809,
-        "netFlow": -52571373,
+        "netFlow1d": 20447277,
+        "netFlow": -65196744,
         "periodDays": 5,
         "source": "TWSE"
       },
@@ -2718,62 +2718,62 @@
         "asOf": "2026-10-19",
         "currency": "TWD",
         "returns": {
-          "d1": -3.7151702786377694,
-          "d5": -10.632183908045977,
-          "d20": -7.988165680473369
+          "d1": 2.2284100363724413,
+          "d5": 3.2348848116993567,
+          "d20": 24.829936187509748
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 155.5,
-        "volumeRatio": 0.761864531841052
+        "value": 36.70000076293945,
+        "volumeRatio": 0.5668092372456924
       },
       "institutional": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "periods": {
           "3": {
-            "dealer": 1812823,
-            "foreign": -17637916,
-            "trust": -1660381
+            "dealer": -3517812,
+            "foreign": 18180406,
+            "trust": 330235
           },
           "5": {
-            "dealer": -2621575,
-            "foreign": -43831776,
-            "trust": -6118022
+            "dealer": -14402362,
+            "foreign": -51276617,
+            "trust": 482235
           },
           "10": {
-            "dealer": -2822715,
-            "foreign": -11515522,
-            "trust": -25929456
+            "dealer": -49921840,
+            "foreign": -404642604,
+            "trust": 4791628
           },
           "20": {
-            "dealer": 4386598,
-            "foreign": 61911428,
-            "trust": -58699277
+            "dealer": -13924881,
+            "foreign": -56687773,
+            "trust": 11335747
           }
         },
         "source": "TWSE",
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-19",
-        "balance": 111309,
-        "change": -1303,
+        "asOf": "2026-10-16",
+        "balance": 303587,
+        "change": 428,
         "source": "TWSE",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-19",
-        "balance": 99370629,
-        "change": 7699000,
+        "asOf": "2026-10-16",
+        "balance": 752738000,
+        "change": 5653000,
         "source": "TWSE",
         "status": "available"
       },
       "financials": {
         "asOf": "11509",
-        "monthlyRevenue": 28248909,
-        "momPct": 3.4428274312557416,
+        "monthlyRevenue": 23403717,
+        "momPct": 1.3075559537955082,
         "source": "MOPS monthly revenue open data",
-        "yoyPct": 256.6686868151223,
+        "yoyPct": -4.261365704978919,
         "status": "available"
       },
       "screening": {
@@ -2782,7 +2782,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -7.99%"
+            "detail": "Yahoo Finance，20 日 +24.83%"
           },
           {
             "key": "institutionalPeriods",
@@ -2794,19 +2794,19 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 111,309"
+            "detail": "餘額 303,587"
           },
           {
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 99,370,629"
+            "detail": "餘額 752,738,000"
           },
           {
             "key": "monthlyRevenue",
             "label": "MOPS 月營收",
             "status": "pass",
-            "detail": "YoY +256.67%"
+            "detail": "YoY -4.26%"
           },
           {
             "key": "catalyst",
@@ -2817,8 +2817,8 @@
           {
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
-            "status": "pass",
-            "detail": "20 日 -7.99%，上限 18%"
+            "status": "fail",
+            "detail": "20 日 +24.83%，上限 18%"
           }
         ],
         "eligible": false,
