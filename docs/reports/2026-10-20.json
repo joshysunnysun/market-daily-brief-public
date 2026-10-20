@@ -1,8 +1,8 @@
 {
   "date": "2026-10-20",
   "timezone": "Asia/Taipei",
-  "session": "us_pre",
-  "generatedAt": "2026-10-20T02:53:48+08:00",
+  "session": "tw_pre",
+  "generatedAt": "2026-10-20T08:55:37+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
@@ -14,8 +14,8 @@
       },
       {
         "label": "S&P 500",
-        "value": "7,701.6",
-        "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+        "value": "7,690.73",
+        "detail": "1日 +0.41%｜5日 -1.49%｜20日 -0.95%",
         "direction": "positive"
       },
       {
@@ -32,7 +32,7 @@
       },
       {
         "title": "美股觀察名單相對強弱",
-        "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
+        "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
       }
     ],
     "decision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。"
@@ -40,8 +40,8 @@
   "markets": {
     "tw": {
       "label": "台股",
-      "session": "tw_close",
-      "updatedAt": "2026-10-20T02:53:48+08:00",
+      "session": "tw_pre",
+      "updatedAt": "2026-10-20T08:55:37+08:00",
       "dataQuality": "16/16 檔有行情；正式法人完整 15 檔、融資 16 檔、借券 16 檔",
       "stats": [
         {
@@ -191,35 +191,35 @@
     },
     "us": {
       "label": "美股",
-      "session": "us_pre",
-      "updatedAt": "2026-10-20T02:53:48+08:00",
+      "session": "us_close",
+      "updatedAt": "2026-10-20T08:55:37+08:00",
       "dataQuality": "5/5 檔有行情；財報 5/5 檔（SEC 0、Nasdaq 摘要 5），機構代理仍待可驗證來源",
       "stats": [
         {
           "label": "S&P 500",
-          "value": "7,701.6",
-          "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+          "value": "7,690.73",
+          "detail": "1日 +0.41%｜5日 -1.49%｜20日 -0.95%",
           "direction": "positive"
         },
         {
           "label": "Nasdaq",
-          "value": "26,460.45",
-          "detail": "1日 +1.23%｜5日 -2.88%｜20日 -2.44%",
+          "value": "26,430.89",
+          "detail": "1日 +1.11%｜5日 -2.99%｜20日 -2.55%",
           "direction": "positive"
         },
         {
           "label": "費城半導體",
-          "value": "11,349.94",
-          "detail": "1日 +1.91%｜5日 -7.25%｜20日 -8.71%",
+          "value": "11,316.34",
+          "detail": "1日 +1.61%｜5日 -7.52%｜20日 -8.98%",
           "direction": "positive"
         }
       ],
       "signals": [
         {
           "label": "追蹤股漲跌家數",
-          "value": "5 ↑ / 0 ↓",
+          "value": "0 ↑ / 5 ↓",
           "detail": "5 檔取得有效行情",
-          "direction": "positive"
+          "direction": "negative"
         },
         {
           "label": "Nasdaq fallback",
@@ -236,35 +236,35 @@
       ],
       "rotation": [
         {
+          "name": "NVDA NVIDIA",
+          "ticker": "NVDA",
+          "value": -1.427054691201457
+        },
+        {
           "name": "TSLA Tesla",
           "ticker": "TSLA",
-          "value": 3.9101249068156596
-        },
-        {
-          "name": "MU Micron",
-          "ticker": "MU",
-          "value": 3.110928844291383
-        },
-        {
-          "name": "AMD AMD",
-          "ticker": "AMD",
-          "value": 2.241303283835694
+          "value": -2.1300080478702577
         },
         {
           "name": "AVGO Broadcom",
           "ticker": "AVGO",
-          "value": 2.0228118316302224
+          "value": -4.524725460991997
         },
         {
-          "name": "NVDA NVIDIA",
-          "ticker": "NVDA",
-          "value": 1.4430468721941647
+          "name": "MU Micron",
+          "ticker": "MU",
+          "value": -5.626902187235128
+        },
+        {
+          "name": "AMD AMD",
+          "ticker": "AMD",
+          "value": -5.954855064974762
         }
       ],
       "notes": [
         {
           "title": "美股觀察名單相對強弱",
-          "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
+          "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
@@ -285,8 +285,8 @@
     },
     {
       "label": "S&P 500",
-      "value": "7,701.6",
-      "detail": "1日 +0.55%｜5日 -1.35%｜20日 -0.81%",
+      "value": "7,690.73",
+      "detail": "1日 +0.41%｜5日 -1.49%｜20日 -0.95%",
       "direction": "positive"
     },
     {
@@ -298,29 +298,84 @@
   ],
   "rotation": [
     {
-      "name": "TSLA Tesla",
-      "ticker": "TSLA",
-      "value": 3.9101249068156596
+      "name": "2409 友達",
+      "ticker": "2409",
+      "value": 2.2284100363724413
     },
     {
-      "name": "MU Micron",
-      "ticker": "MU",
-      "value": 3.110928844291383
+      "name": "2884 玉山金",
+      "ticker": "2884",
+      "value": 0.40691137748365414
     },
     {
-      "name": "AMD AMD",
-      "ticker": "AMD",
-      "value": 2.241303283835694
+      "name": "2308 台達電",
+      "ticker": "2308",
+      "value": 0.3058103975535076
     },
     {
-      "name": "AVGO Broadcom",
-      "ticker": "AVGO",
-      "value": 2.0228118316302224
+      "name": "2360 致茂",
+      "ticker": "2360",
+      "value": 0.24999999999999467
     },
     {
-      "name": "NVDA NVIDIA",
-      "ticker": "NVDA",
-      "value": 1.4430468721941647
+      "name": "2330 台積電",
+      "ticker": "2330",
+      "value": 0
+    },
+    {
+      "name": "2002 中鋼",
+      "ticker": "2002",
+      "value": -0.255750583180403
+    },
+    {
+      "name": "2891 中信金",
+      "ticker": "2891",
+      "value": -0.2717349896583343
+    },
+    {
+      "name": "5880 合庫金",
+      "ticker": "5880",
+      "value": -0.3552411468023542
+    },
+    {
+      "name": "2454 聯發科",
+      "ticker": "2454",
+      "value": -1.0588235294117676
+    },
+    {
+      "name": "2890 永豐金",
+      "ticker": "2890",
+      "value": -1.0928961748633892
+    },
+    {
+      "name": "2303 聯電",
+      "ticker": "2303",
+      "value": -1.1278195488721776
+    },
+    {
+      "name": "2885 元大金",
+      "ticker": "2885",
+      "value": -1.6460967798618276
+    },
+    {
+      "name": "2609 陽明",
+      "ticker": "2609",
+      "value": -1.854709435615809
+    },
+    {
+      "name": "6488 環球晶",
+      "ticker": "6488",
+      "value": -2.2172949002217335
+    },
+    {
+      "name": "2408 南亞科",
+      "ticker": "2408",
+      "value": -2.5698324022346397
+    },
+    {
+      "name": "6770 力積電",
+      "ticker": "6770",
+      "value": -2.971768067323677
     }
   ],
   "notes": [
@@ -330,7 +385,7 @@
     },
     {
       "title": "美股觀察名單相對強弱",
-      "text": "TSLA Tesla 單日 +3.91% 最強；NVDA NVIDIA +1.44% 最弱。點選排行可查看完整證據。"
+      "text": "NVDA NVIDIA 單日 -1.43% 最強；AMD AMD -5.95% 最弱。點選排行可查看完整證據。"
     }
   ],
   "marketDecision": "本次沒有完整通過設定證據的股票，維持觀察，不為填滿版面而推薦。",
@@ -420,8 +475,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 34110,
-        "change": -113,
+        "balance": 34111,
+        "change": 1,
         "source": "TWSE",
         "status": "available"
       },
@@ -458,7 +513,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 34,110"
+            "detail": "餘額 34,111"
           },
           {
             "key": "lending",
@@ -543,8 +598,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 11757,
-        "change": 110,
+        "balance": 11834,
+        "change": 77,
         "source": "TWSE",
         "status": "available"
       },
@@ -581,7 +636,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 11,757"
+            "detail": "餘額 11,834"
           },
           {
             "key": "lending",
@@ -666,8 +721,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 10571,
-        "change": 178,
+        "balance": 10572,
+        "change": 1,
         "source": "TWSE",
         "status": "available"
       },
@@ -704,7 +759,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 10,571"
+            "detail": "餘額 10,572"
           },
           {
             "key": "lending",
@@ -789,8 +844,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 1559,
-        "change": 2,
+        "balance": 1517,
+        "change": -42,
         "source": "TWSE",
         "status": "available"
       },
@@ -827,7 +882,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,559"
+            "detail": "餘額 1,517"
           },
           {
             "key": "lending",
@@ -911,8 +966,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 5556,
-        "change": -130,
+        "balance": 5575,
+        "change": 19,
         "source": "TWSE",
         "status": "available"
       },
@@ -949,7 +1004,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 5,556"
+            "detail": "餘額 5,575"
           },
           {
             "key": "lending",
@@ -1033,8 +1088,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 5822,
-        "change": -1175,
+        "balance": 5791,
+        "change": -31,
         "source": "TWSE",
         "status": "available"
       },
@@ -1071,7 +1126,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 5,822"
+            "detail": "餘額 5,791"
           },
           {
             "key": "lending",
@@ -1221,17 +1276,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "currency": "USD",
         "returns": {
-          "d1": 1.4430468721941647,
-          "d5": -4.020857992673732,
-          "d20": -4.468292481278491
+          "d1": -1.427054691201457,
+          "d5": -6.607638685076777,
+          "d20": -3.6622122792917877
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 217.22000122070312,
-        "volumeRatio": 0.6349552797408629
+        "value": 214.1300048828125,
+        "volumeRatio": 1.1155839766439712
       },
       "institutional": {
         "status": "not_applicable",
@@ -1262,7 +1317,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -4.47%"
+            "detail": "Yahoo Finance，20 日 -3.66%"
           },
           {
             "key": "financials",
@@ -1286,7 +1341,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -4.47%，上限 18%"
+            "detail": "20 日 -3.66%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1307,17 +1362,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "currency": "USD",
         "returns": {
-          "d1": 2.0228118316302224,
-          "d5": -5.449219544773376,
-          "d20": -7.516684908828042
+          "d1": -4.524725460991997,
+          "d5": -9.069538023437772,
+          "d20": -8.070240355059033
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 335.3999938964844,
-        "volumeRatio": 0.4248625666510598
+        "value": 328.75,
+        "volumeRatio": 1.2899845347135799
       },
       "institutional": {
         "status": "not_applicable",
@@ -1348,7 +1403,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -7.52%"
+            "detail": "Yahoo Finance，20 日 -8.07%"
           },
           {
             "key": "financials",
@@ -1372,7 +1427,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -7.52%，上限 18%"
+            "detail": "20 日 -8.07%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1393,17 +1448,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "currency": "USD",
         "returns": {
-          "d1": 3.110928844291383,
-          "d5": -8.377807279996441,
-          "d20": -13.197809432047258
+          "d1": -5.626902187235128,
+          "d5": -14.592805942131315,
+          "d20": -13.482965404938941
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 906.1801147460938,
-        "volumeRatio": 0.7377743640221476
+        "value": 878.8400268554688,
+        "volumeRatio": 1.1121574311484703
       },
       "institutional": {
         "status": "not_applicable",
@@ -1434,7 +1489,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -13.20%"
+            "detail": "Yahoo Finance，20 日 -13.48%"
           },
           {
             "key": "financials",
@@ -1458,7 +1513,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -13.20%，上限 18%"
+            "detail": "20 日 -13.48%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1479,17 +1534,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "currency": "USD",
         "returns": {
-          "d1": 3.9101249068156596,
-          "d5": -2.4971569642327607,
-          "d20": -1.7879007922535939
+          "d1": -2.1300080478702577,
+          "d5": -7.3112124624630574,
+          "d20": -2.6216784475787014
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 368.5899963378906,
-        "volumeRatio": 0.8453846926155895
+        "value": 354.7200012207031,
+        "volumeRatio": 1.8211166207989449
       },
       "institutional": {
         "status": "not_applicable",
@@ -1520,7 +1575,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -1.79%"
+            "detail": "Yahoo Finance，20 日 -2.62%"
           },
           {
             "key": "financials",
@@ -1544,7 +1599,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -1.79%，上限 18%"
+            "detail": "20 日 -2.62%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1565,17 +1620,17 @@
       "catalysts": [],
       "market": "us",
       "price": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-16",
         "currency": "USD",
         "returns": {
-          "d1": 2.241303283835694,
-          "d5": -9.026504443085004,
-          "d20": -12.171680211965075
+          "d1": -5.954855064974762,
+          "d5": -13.048837160284288,
+          "d20": -5.54999944941671
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 540.6008911132812,
-        "volumeRatio": 0.7105371615558546
+        "value": 528.75,
+        "volumeRatio": 1.0347563776484743
       },
       "institutional": {
         "status": "not_applicable",
@@ -1606,7 +1661,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -12.17%"
+            "detail": "Yahoo Finance，20 日 -5.55%"
           },
           {
             "key": "financials",
@@ -1630,7 +1685,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -12.17%，上限 18%"
+            "detail": "20 日 -5.55%，上限 18%"
           }
         ],
         "eligible": false,
@@ -1700,8 +1755,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 40628,
-        "change": 800,
+        "balance": 40967,
+        "change": 339,
         "source": "TWSE",
         "status": "available"
       },
@@ -1738,7 +1793,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 40,628"
+            "detail": "餘額 40,967"
           },
           {
             "key": "lending",
@@ -1832,8 +1887,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 1174,
-        "change": -177,
+        "balance": 1364,
+        "change": 190,
         "source": "TWSE",
         "status": "available"
       },
@@ -1870,7 +1925,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,174"
+            "detail": "餘額 1,364"
           },
           {
             "key": "lending",
@@ -1964,8 +2019,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 28128,
-        "change": -747,
+        "balance": 27667,
+        "change": -461,
         "source": "TWSE",
         "status": "available"
       },
@@ -2002,7 +2057,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 28,128"
+            "detail": "餘額 27,667"
           },
           {
             "key": "lending",
@@ -2096,8 +2151,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 1299,
-        "change": 167,
+        "balance": 1188,
+        "change": -111,
         "source": "TWSE",
         "status": "available"
       },
@@ -2134,7 +2189,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,299"
+            "detail": "餘額 1,188"
           },
           {
             "key": "lending",
@@ -2228,8 +2283,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 2474,
-        "change": 170,
+        "balance": 2574,
+        "change": 100,
         "source": "TWSE",
         "status": "available"
       },
@@ -2266,7 +2321,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 2,474"
+            "detail": "餘額 2,574"
           },
           {
             "key": "lending",
@@ -2360,8 +2415,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 137057,
-        "change": -662,
+        "balance": 137811,
+        "change": 754,
         "source": "TWSE",
         "status": "available"
       },
@@ -2398,7 +2453,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 137,057"
+            "detail": "餘額 137,811"
           },
           {
             "key": "lending",
@@ -2492,8 +2547,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 63424,
-        "change": 3370,
+        "balance": 63015,
+        "change": -409,
         "source": "TWSE",
         "status": "available"
       },
@@ -2530,7 +2585,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 63,424"
+            "detail": "餘額 63,015"
           },
           {
             "key": "lending",
@@ -2624,8 +2679,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 158897,
-        "change": -71,
+        "balance": 149958,
+        "change": -8939,
         "source": "TWSE",
         "status": "available"
       },
@@ -2662,7 +2717,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 158,897"
+            "detail": "餘額 149,958"
           },
           {
             "key": "lending",
@@ -2756,8 +2811,8 @@
       },
       "margin": {
         "asOf": "2026-10-16",
-        "balance": 303587,
-        "change": 428,
+        "balance": 300006,
+        "change": -3581,
         "source": "TWSE",
         "status": "available"
       },
@@ -2794,7 +2849,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 303,587"
+            "detail": "餘額 300,006"
           },
           {
             "key": "lending",
