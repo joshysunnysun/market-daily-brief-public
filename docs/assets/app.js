@@ -76,14 +76,14 @@ function missingBlock(detail = '這份報告尚未包含此欄位。') {
 }
 
 function legacyMarket(report, key) {
-  if (key === 'tw') return { label: '台股', session: report.session ?? 'tw_intraday', updatedAt: report.generatedAt, dataQuality: '歷史格式：可查看既有盤面資料，明細證據尚未完整', stats: report.marketStats ?? [], signals: [], rotation: report.rotation ?? [], notes: report.notes ?? [], decision: report.marketDecision ?? '', candidates: [], noCandidateReason: '這份歷史報告未包含完整篩選資料。' };
-  return { label: '美股', session: 'us_close', updatedAt: report.generatedAt, dataQuality: '歷史格式：尚未建立獨立美股資料集', stats: [{ label: '資料狀態', value: '待建立', detail: '請查看較新的報告', direction: '' }], signals: [], rotation: [], notes: [], decision: '這份歷史報告沒有獨立美股判讀。', candidates: [], noCandidateReason: '缺少獨立美股資料。' };
+  if (key === 'tw') return { label: '台股', session: report.session ?? 'tw_intraday', updatedAt: report.generatedAt, dataQuality: '歷史格式：可查看既有盤面資料，明細證據尚未完整', stats: report.marketStats ?? [], signals: [], rotation: report.rotation ?? [], notes: report.notes ?? [], decision: report.marketDecision ?? '', candidates: [], researchTargets: [], noCandidateReason: '這份歷史報告未包含完整篩選資料。' };
+  return { label: '美股', session: 'us_close', updatedAt: report.generatedAt, dataQuality: '歷史格式：尚未建立獨立美股資料集', stats: [{ label: '資料狀態', value: '待建立', detail: '請查看較新的報告', direction: '' }], signals: [], rotation: [], notes: [], decision: '這份歷史報告沒有獨立美股判讀。', candidates: [], researchTargets: [], noCandidateReason: '缺少獨立美股資料。' };
 }
 
 function legacyStocks(report) {
   const result = new Map();
   for (const [marketKey, market] of Object.entries(report.markets)) {
-    for (const item of [...(market.rotation ?? []), ...(market.candidates ?? [])]) {
+    for (const item of [...(market.rotation ?? []), ...(market.candidates ?? []), ...(market.researchTargets ?? [])]) {
       const first = String(item.ticker ?? item.name ?? '').trim().split(/\s+/u)[0];
       if (!/^(?:\d{4}|[A-Z]{1,6})$/u.test(first)) continue;
       const name = item.name && item.ticker ? item.name : String(item.name ?? first).replace(new RegExp(`^${first}\\s*`, 'u'), '') || first;
@@ -248,8 +248,10 @@ function renderCandidates(id, market, marketKey) {
   const evaluated = currentStocks.filter(stock => stock.market === marketKey)
     .sort((left, right) => Number(right.screening?.eligible) - Number(left.screening?.eligible));
   const qualified = market.candidates.map(candidateCard).join('');
-  const notice = market.candidates.length ? '' : `<article class="empty-state candidate-empty"><strong>本次沒有完整合格候選，但評估清單不再留白</strong><p>${escapeHtml(market.noCandidateReason)} 下方可逐檔查看已通過項目與缺口。</p></article>`;
-  element.innerHTML = `${qualified}${notice}${evaluated.map(evaluationCard).join('')}`;
+  const researchTargets = market.researchTargets ?? [];
+  const notice = market.candidates.length ? '' : `<article class="empty-state candidate-empty"><strong>${researchTargets.length ? '本次沒有操作候選；下方列出待催化研究目標' : '本次沒有完整合格候選，但評估清單不再留白'}</strong><p>${escapeHtml(market.noCandidateReason)} 下方可逐檔查看已通過項目與缺口。</p></article>`;
+  const research = researchTargets.length ? `<article class="note candidate-empty"><h3>研究目標／待催化確認</h3><p>這些股票已通過其他硬資料與風控條件，但尚無可核對日期與來源的催化劑；不是買進建議，也不會進入模擬交易。</p></article>${researchTargets.map(candidateCard).join('')}` : '';
+  element.innerHTML = `${qualified}${notice}${research}${evaluated.map(evaluationCard).join('')}`;
 }
 
 function renderMarket(key, market) {
@@ -289,7 +291,7 @@ function render(rawReport, index, directory = { stocks: [] }) {
   document.title = `${report.date}｜市場日報`;
   document.querySelector('#report-meta').textContent = `${report.date}｜資料截點 ${report.generatedAt}｜${report.disclaimer}`;
   renderStats('market-stats', report.overview.stats);
-  document.querySelector('#market-status').innerHTML = Object.entries(report.markets).map(([key, market]) => `<article class="market-status card"><div><span class="tag">${escapeHtml(sessionNames[market.session] ?? market.session)}</span><h2>${escapeHtml(market.label)}</h2></div><strong>${market.candidates.length} 檔候選</strong><p>${escapeHtml(market.dataQuality)}</p><button type="button" class="jump-link" data-target="${key}-market">查看市場與名單</button></article>`).join('');
+  document.querySelector('#market-status').innerHTML = Object.entries(report.markets).map(([key, market]) => { const targets = market.researchTargets?.length ?? 0; return `<article class="market-status card"><div><span class="tag">${escapeHtml(sessionNames[market.session] ?? market.session)}</span><h2>${escapeHtml(market.label)}</h2></div><strong>${market.candidates.length} 檔候選${targets ? ` · ${targets} 檔研究目標` : ''}</strong><p>${escapeHtml(market.dataQuality)}</p><button type="button" class="jump-link" data-target="${key}-market">查看市場與名單</button></article>`; }).join('');
   document.querySelector('#overview-notes').innerHTML = notes(report.overview.notes);
   document.querySelector('#overview-decision').innerHTML = `<strong>跨市場判讀</strong><p>${escapeHtml(report.overview.decision)}</p>`;
   renderMarket('tw', report.markets.tw); renderMarket('us', report.markets.us);
