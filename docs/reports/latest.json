@@ -1,15 +1,15 @@
 {
   "date": "2026-10-21",
   "timezone": "Asia/Taipei",
-  "session": "tw_pre",
-  "generatedAt": "2026-10-21T11:27:55+08:00",
+  "session": "tw_close",
+  "generatedAt": "2026-10-21T14:59:01+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
       {
         "label": "加權指數",
-        "value": "46,997.77",
-        "detail": "1日 +1.52%｜5日 -3.35%｜20日 -0.39%",
+        "value": "46,887.77",
+        "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
         "direction": "positive"
       },
       {
@@ -40,14 +40,14 @@
   "markets": {
     "tw": {
       "label": "台股",
-      "session": "tw_pre",
-      "updatedAt": "2026-10-21T11:27:55+08:00",
+      "session": "tw_close",
+      "updatedAt": "2026-10-21T14:59:01+08:00",
       "dataQuality": "15/15 檔有行情；正式法人完整 14 檔、融資 15 檔、借券 15 檔",
       "stats": [
         {
           "label": "加權指數",
-          "value": "46,997.77",
-          "detail": "1日 +1.52%｜5日 -3.35%｜20日 -0.39%",
+          "value": "46,887.77",
+          "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
           "direction": "positive"
         },
         {
@@ -97,79 +97,79 @@
       ],
       "rotation": [
         {
-          "name": "6488 環球晶",
-          "ticker": "6488",
-          "value": 4.976303317535535
-        },
-        {
           "name": "2449 京元電子",
           "ticker": "2449",
-          "value": 3.8535645472061564
+          "value": 7.129094412331405
+        },
+        {
+          "name": "6488 環球晶",
+          "ticker": "6488",
+          "value": 4.2654028436019065
         },
         {
           "name": "2408 南亞科",
           "ticker": "2408",
-          "value": 3.672985781990512
+          "value": 3.4360189573459765
         },
         {
           "name": "6770 力積電",
           "ticker": "6770",
-          "value": 2.652113288774971
+          "value": 3.2761287427626407
         },
         {
           "name": "2890 永豐金",
           "ticker": "2890",
-          "value": 2.259887005649719
-        },
-        {
-          "name": "2360 致茂",
-          "ticker": "2360",
-          "value": 2.2499999999999964
-        },
-        {
-          "name": "2308 台達電",
-          "ticker": "2308",
-          "value": 1.869158878504673
-        },
-        {
-          "name": "2303 聯電",
-          "ticker": "2303",
-          "value": 1.5748031496062964
+          "value": 2.5988735048110945
         },
         {
           "name": "5880 合庫金",
           "ticker": "5880",
-          "value": 1.4571934696275823
+          "value": 2.003640152182107
         },
         {
           "name": "2884 玉山金",
           "ticker": "2884",
-          "value": 1.4477782523904859
+          "value": 1.7580192671015515
         },
         {
-          "name": "2330 台積電",
-          "ticker": "2330",
-          "value": 1.039501039501034
+          "name": "2308 台達電",
+          "ticker": "2308",
+          "value": 1.2461059190031154
         },
         {
-          "name": "2454 聯發科",
-          "ticker": "2454",
-          "value": 0.48192771084336616
+          "name": "2303 聯電",
+          "ticker": "2303",
+          "value": 0.7874015748031482
         },
         {
           "name": "2886 兆豐金",
           "ticker": "2886",
-          "value": 0.3759412783294058
+          "value": 0.7518753861753602
         },
         {
-          "name": "2002 中鋼",
-          "ticker": "2002",
-          "value": -0.2551078746735769
+          "name": "2330 台積電",
+          "ticker": "2330",
+          "value": 0.6237006237006293
+        },
+        {
+          "name": "2360 致茂",
+          "ticker": "2360",
+          "value": 0.49999999999998934
         },
         {
           "name": "1216 統一",
           "ticker": "1216",
-          "value": -0.2551078746735769
+          "value": 0.12754907165160034
+        },
+        {
+          "name": "2002 中鋼",
+          "ticker": "2002",
+          "value": 0
+        },
+        {
+          "name": "2454 聯發科",
+          "ticker": "2454",
+          "value": -0.24096385542168308
         }
       ],
       "notes": [
@@ -179,7 +179,7 @@
         },
         {
           "title": "台股觀察名單相對強弱",
-          "text": "6488 環球晶 單日 +4.98% 最強；1216 統一 -0.26% 最弱。點選排行可查看完整證據。"
+          "text": "2449 京元電子 單日 +7.13% 最強；2454 聯發科 -0.24% 最弱。點選排行可查看完整證據。"
         },
         {
           "title": "候選門檻",
@@ -203,7 +203,7 @@
           "metrics": [
             {
               "label": "20 日漲幅",
-              "value": "-10.70%",
+              "value": "-12.23%",
               "detail": "screening.json 追高門檻",
               "direction": "negative"
             },
@@ -232,7 +232,7 @@
           "metrics": [
             {
               "label": "20 日漲幅",
-              "value": "+5.71%",
+              "value": "+6.03%",
               "detail": "screening.json 追高門檻",
               "direction": "positive"
             },
@@ -261,7 +261,7 @@
           "metrics": [
             {
               "label": "20 日漲幅",
-              "value": "+4.27%",
+              "value": "+4.53%",
               "detail": "screening.json 追高門檻",
               "direction": "positive"
             },
@@ -290,7 +290,7 @@
           "metrics": [
             {
               "label": "20 日漲幅",
-              "value": "+4.50%",
+              "value": "+4.89%",
               "detail": "screening.json 追高門檻",
               "direction": "positive"
             },
@@ -319,7 +319,7 @@
           "metrics": [
             {
               "label": "20 日漲幅",
-              "value": "+4.27%",
+              "value": "+4.67%",
               "detail": "screening.json 追高門檻",
               "direction": "positive"
             },
@@ -340,7 +340,7 @@
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-21T11:27:55+08:00",
+      "updatedAt": "2026-10-21T14:59:01+08:00",
       "dataQuality": "5/5 檔有行情；財報 5/5 檔（SEC 0、Nasdaq 摘要 5），機構代理仍待可驗證來源",
       "stats": [
         {
@@ -434,8 +434,8 @@
   "marketStats": [
     {
       "label": "加權指數",
-      "value": "46,997.77",
-      "detail": "1日 +1.52%｜5日 -3.35%｜20日 -0.39%",
+      "value": "46,887.77",
+      "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
       "direction": "positive"
     },
     {
@@ -453,79 +453,79 @@
   ],
   "rotation": [
     {
-      "name": "6488 環球晶",
-      "ticker": "6488",
-      "value": 4.976303317535535
-    },
-    {
       "name": "2449 京元電子",
       "ticker": "2449",
-      "value": 3.8535645472061564
+      "value": 7.129094412331405
+    },
+    {
+      "name": "6488 環球晶",
+      "ticker": "6488",
+      "value": 4.2654028436019065
     },
     {
       "name": "2408 南亞科",
       "ticker": "2408",
-      "value": 3.672985781990512
+      "value": 3.4360189573459765
     },
     {
       "name": "6770 力積電",
       "ticker": "6770",
-      "value": 2.652113288774971
+      "value": 3.2761287427626407
     },
     {
       "name": "2890 永豐金",
       "ticker": "2890",
-      "value": 2.259887005649719
-    },
-    {
-      "name": "2360 致茂",
-      "ticker": "2360",
-      "value": 2.2499999999999964
-    },
-    {
-      "name": "2308 台達電",
-      "ticker": "2308",
-      "value": 1.869158878504673
-    },
-    {
-      "name": "2303 聯電",
-      "ticker": "2303",
-      "value": 1.5748031496062964
+      "value": 2.5988735048110945
     },
     {
       "name": "5880 合庫金",
       "ticker": "5880",
-      "value": 1.4571934696275823
+      "value": 2.003640152182107
     },
     {
       "name": "2884 玉山金",
       "ticker": "2884",
-      "value": 1.4477782523904859
+      "value": 1.7580192671015515
     },
     {
-      "name": "2330 台積電",
-      "ticker": "2330",
-      "value": 1.039501039501034
+      "name": "2308 台達電",
+      "ticker": "2308",
+      "value": 1.2461059190031154
     },
     {
-      "name": "2454 聯發科",
-      "ticker": "2454",
-      "value": 0.48192771084336616
+      "name": "2303 聯電",
+      "ticker": "2303",
+      "value": 0.7874015748031482
     },
     {
       "name": "2886 兆豐金",
       "ticker": "2886",
-      "value": 0.3759412783294058
+      "value": 0.7518753861753602
     },
     {
-      "name": "2002 中鋼",
-      "ticker": "2002",
-      "value": -0.2551078746735769
+      "name": "2330 台積電",
+      "ticker": "2330",
+      "value": 0.6237006237006293
+    },
+    {
+      "name": "2360 致茂",
+      "ticker": "2360",
+      "value": 0.49999999999998934
     },
     {
       "name": "1216 統一",
       "ticker": "1216",
-      "value": -0.2551078746735769
+      "value": 0.12754907165160034
+    },
+    {
+      "name": "2002 中鋼",
+      "ticker": "2002",
+      "value": 0
+    },
+    {
+      "name": "2454 聯發科",
+      "ticker": "2454",
+      "value": -0.24096385542168308
     }
   ],
   "notes": [
@@ -587,15 +587,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 1.039501039501034,
-          "d5": -2.409638554216864,
-          "d20": -1.2195121951219523
+          "d1": 0.6237006237006293,
+          "d5": -2.8112449799196804,
+          "d20": -1.6260162601625994
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 2430,
-        "volume": 8647105,
-        "volumeRatio": 0.3694148265503957
+        "value": 2420,
+        "volume": 23935196,
+        "volumeRatio": 1.022540639762062
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -652,7 +652,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -1.22%"
+            "detail": "Yahoo Finance，20 日 -1.63%"
           },
           {
             "key": "institutionalPeriods",
@@ -688,7 +688,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -1.22%，上限 18%",
+            "detail": "20 日 -1.63%，上限 18%",
             "rule": true
           },
           {
@@ -709,7 +709,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 21012.5 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 57923.2 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -740,15 +740,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 0.48192771084336616,
-          "d5": -6.815642458100557,
-          "d20": -11.46496815286624
+          "d1": -0.24096385542168308,
+          "d5": -7.48603351955307,
+          "d20": -12.101910828025474
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 4170,
-        "volume": 4197786,
-        "volumeRatio": 0.5653056866894219
+        "value": 4140,
+        "volume": 9026097,
+        "volumeRatio": 1.2155226499660372
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -805,7 +805,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -11.46%"
+            "detail": "Yahoo Finance，20 日 -12.10%"
           },
           {
             "key": "institutionalPeriods",
@@ -841,7 +841,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -11.46%，上限 18%",
+            "detail": "20 日 -12.10%，上限 18%",
             "rule": true
           },
           {
@@ -862,7 +862,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 17504.8 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 37368.0 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -893,15 +893,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 1.869158878504673,
-          "d5": -8.403361344537819,
-          "d20": -5.763688760806918
+          "d1": 1.2461059190031154,
+          "d5": -8.963585434173671,
+          "d20": -6.340057636887608
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 1635,
-        "volume": 5856486,
-        "volumeRatio": 0.5509039293070938
+        "value": 1625,
+        "volume": 11289452,
+        "volumeRatio": 1.061968468211796
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -958,7 +958,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -5.76%"
+            "detail": "Yahoo Finance，20 日 -6.34%"
           },
           {
             "key": "institutionalPeriods",
@@ -994,7 +994,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -5.76%，上限 18%",
+            "detail": "20 日 -6.34%，上限 18%",
             "rule": true
           },
           {
@@ -1015,7 +1015,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 9575.4 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 18345.4 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1046,15 +1046,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 2.2499999999999964,
-          "d5": -9.111111111111114,
-          "d20": -10.698689956331876
+          "d1": 0.49999999999998934,
+          "d5": -10.666666666666668,
+          "d20": -12.227074235807855
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 2045,
-        "volume": 1634807,
-        "volumeRatio": 0.6258493869732351
+        "value": 2010,
+        "volume": 2645879,
+        "volumeRatio": 1.01291574488937
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1111,7 +1111,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -10.70%"
+            "detail": "Yahoo Finance，20 日 -12.23%"
           },
           {
             "key": "institutionalPeriods",
@@ -1147,7 +1147,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -10.70%，上限 18%",
+            "detail": "20 日 -12.23%，上限 18%",
             "rule": true
           },
           {
@@ -1168,7 +1168,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 3343.2 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 5318.2 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1207,15 +1207,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 1.4477782523904859,
-          "d5": 3.6997886431863636,
-          "d20": 5.711201775938823
+          "d1": 1.7580192671015515,
+          "d5": 4.016916609990595,
+          "d20": 6.034480915908791
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 49.04999923706055,
-        "volume": 8094955,
-        "volumeRatio": 0.2754219557141319
+        "value": 49.20000076293945,
+        "volume": 25445956,
+        "volumeRatio": 0.8657707135537812
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1272,7 +1272,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +5.71%"
+            "detail": "Yahoo Finance，20 日 +6.03%"
           },
           {
             "key": "institutionalPeriods",
@@ -1308,7 +1308,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +5.71%，上限 18%",
+            "detail": "20 日 +6.03%，上限 18%",
             "rule": true
           },
           {
@@ -1329,7 +1329,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 397.1 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 1251.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1359,15 +1359,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 2.259887005649719,
-          "d5": 2.7241788506771503,
-          "d20": 0
+          "d1": 2.5988735048110945,
+          "d5": 3.0647044544839908,
+          "d20": 0.3314950848152698
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 45.25,
-        "volume": 6657684,
-        "volumeRatio": 0.27699624972629305
+        "value": 45.400001525878906,
+        "volume": 20372624,
+        "volumeRatio": 0.8476131407083711
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1424,7 +1424,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 0.00%"
+            "detail": "Yahoo Finance，20 日 +0.33%"
           },
           {
             "key": "institutionalPeriods",
@@ -1460,7 +1460,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 0.00%，上限 18%",
+            "detail": "20 日 +0.33%，上限 18%",
             "rule": true
           },
           {
@@ -1481,7 +1481,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 301.3 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 924.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1511,15 +1511,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 4.976303317535535,
-          "d5": -13.137254901960782,
-          "d20": -6.144067796610164
+          "d1": 4.2654028436019065,
+          "d5": -13.725490196078427,
+          "d20": -6.779661016949157
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 886,
-        "volume": 6190402,
-        "volumeRatio": 0.41858012641651265
+        "value": 880,
+        "volume": 8859917,
+        "volumeRatio": 0.5990863239414516
       },
       "institutional": {
         "asOf": null,
@@ -1560,7 +1560,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -6.14%"
+            "detail": "Yahoo Finance，20 日 -6.78%"
           },
           {
             "key": "institutionalPeriods",
@@ -1596,7 +1596,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -6.14%，上限 18%",
+            "detail": "20 日 -6.78%，上限 18%",
             "rule": true
           },
           {
@@ -1617,7 +1617,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 5484.7 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 7796.7 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2166,15 +2166,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": -0.2551078746735769,
-          "d5": 0.25640634390025063,
-          "d20": 4.266662597656246
+          "d1": 0,
+          "d5": 0.5128224690755134,
+          "d20": 4.533335367838531
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 19.549999237060547,
-        "volume": 20550475,
-        "volumeRatio": 0.5183559713176585
+        "value": 19.600000381469727,
+        "volume": 40203403,
+        "volumeRatio": 1.0140726193599061
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2231,7 +2231,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +4.27%"
+            "detail": "Yahoo Finance，20 日 +4.53%"
           },
           {
             "key": "institutionalPeriods",
@@ -2267,7 +2267,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +4.27%，上限 18%",
+            "detail": "20 日 +4.53%，上限 18%",
             "rule": true
           },
           {
@@ -2288,7 +2288,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 401.8 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 788.0 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2328,15 +2328,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 1.4571934696275823,
-          "d5": 2.578271722927372,
-          "d20": 2.014656262929626
+          "d1": 2.003640152182107,
+          "d5": 3.130756513490285,
+          "d20": 2.564105430410346
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 27.850000381469727,
-        "volume": 3834564,
-        "volumeRatio": 0.2103012694331247
+        "value": 28,
+        "volume": 11722666,
+        "volumeRatio": 0.642913129352002
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2393,7 +2393,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +2.01%"
+            "detail": "Yahoo Finance，20 日 +2.56%"
           },
           {
             "key": "institutionalPeriods",
@@ -2429,7 +2429,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +2.01%，上限 18%",
+            "detail": "20 日 +2.56%，上限 18%",
             "rule": true
           },
           {
@@ -2450,7 +2450,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 106.8 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 328.2 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2490,15 +2490,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 0.3759412783294058,
-          "d5": 4.500984580112299,
-          "d20": 4.500984580112299
+          "d1": 0.7518753861753602,
+          "d5": 4.892368052155804,
+          "d20": 4.892368052155804
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 53.400001525878906,
-        "volume": 3826180,
-        "volumeRatio": 0.16874221439719345
+        "value": 53.599998474121094,
+        "volume": 13487228,
+        "volumeRatio": 0.594813813986752
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2555,7 +2555,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +4.50%"
+            "detail": "Yahoo Finance，20 日 +4.89%"
           },
           {
             "key": "institutionalPeriods",
@@ -2591,7 +2591,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +4.50%，上限 18%",
+            "detail": "20 日 +4.89%，上限 18%",
             "rule": true
           },
           {
@@ -2612,7 +2612,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 204.3 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 722.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2652,15 +2652,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": -0.2551078746735769,
-          "d5": 0,
-          "d20": 4.266662597656246
+          "d1": 0.12754907165160034,
+          "d5": 0.3836356310299882,
+          "d20": 4.666666666666663
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 78.19999694824219,
-        "volume": 3232009,
-        "volumeRatio": 0.2606823563481996
+        "value": 78.5,
+        "volume": 10864429,
+        "volumeRatio": 0.876286220767861
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2717,7 +2717,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 +4.27%"
+            "detail": "Yahoo Finance，20 日 +4.67%"
           },
           {
             "key": "institutionalPeriods",
@@ -2753,7 +2753,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 +4.27%，上限 18%",
+            "detail": "20 日 +4.67%，上限 18%",
             "rule": true
           },
           {
@@ -2774,7 +2774,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 252.7 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 852.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2814,15 +2814,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 2.652113288774971,
-          "d5": -7.323939363721388,
-          "d20": -11.081076957084035
+          "d1": 3.2761287427626407,
+          "d5": -6.760567678532126,
+          "d20": -10.540544664537588
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 65.80000305175781,
-        "volume": 26783745,
-        "volumeRatio": 0.2469321030854283
+        "value": 66.19999694824219,
+        "volume": 49507708,
+        "volumeRatio": 0.45643514211247466
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2879,7 +2879,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -11.08%"
+            "detail": "Yahoo Finance，20 日 -10.54%"
           },
           {
             "key": "institutionalPeriods",
@@ -2915,7 +2915,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -11.08%，上限 18%",
+            "detail": "20 日 -10.54%，上限 18%",
             "rule": true
           },
           {
@@ -2936,7 +2936,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 1762.4 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 3277.4 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2976,15 +2976,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 1.5748031496062964,
-          "d5": -9.154929577464788,
-          "d20": -17.307692307692314
+          "d1": 0.7874015748031482,
+          "d5": -9.859154929577462,
+          "d20": -17.948717948717952
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 129,
-        "volume": 31115962,
-        "volumeRatio": 0.19672438975056888
+        "value": 128,
+        "volume": 73759992,
+        "volumeRatio": 0.466332662773108
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3041,7 +3041,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -17.31%"
+            "detail": "Yahoo Finance，20 日 -17.95%"
           },
           {
             "key": "institutionalPeriods",
@@ -3077,7 +3077,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -17.31%，上限 18%",
+            "detail": "20 日 -17.95%，上限 18%",
             "rule": true
           },
           {
@@ -3098,7 +3098,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 4014.0 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 9441.3 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -3138,15 +3138,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 3.672985781990512,
-          "d5": -8.949011446409994,
-          "d20": -16.666666666666664
+          "d1": 3.4360189573459765,
+          "d5": -9.15712799167534,
+          "d20": -16.85714285714286
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 437.5,
-        "volume": 19683834,
-        "volumeRatio": 0.4232099645923204
+        "value": 436.5,
+        "volume": 31780106,
+        "volumeRatio": 0.6832844421976019
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3203,7 +3203,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -16.67%"
+            "detail": "Yahoo Finance，20 日 -16.86%"
           },
           {
             "key": "institutionalPeriods",
@@ -3239,7 +3239,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -16.67%，上限 18%",
+            "detail": "20 日 -16.86%，上限 18%",
             "rule": true
           },
           {
@@ -3260,7 +3260,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 8611.7 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 13872.0 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -3300,15 +3300,15 @@
         "asOf": "2026-10-21",
         "currency": "TWD",
         "returns": {
-          "d1": 3.8535645472061564,
-          "d5": -9.10623946037099,
-          "d20": -7.547169811320753
+          "d1": 7.129094412331405,
+          "d5": -6.2394603709949426,
+          "d20": -4.631217838765012
         },
         "source": "Yahoo Finance",
         "status": "available",
-        "value": 269.5,
-        "volume": 10954456,
-        "volumeRatio": 0.330301710076771
+        "value": 278,
+        "volume": 23007725,
+        "volumeRatio": 0.6937351259136991
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3365,7 +3365,7 @@
             "key": "price",
             "label": "價格資料",
             "status": "pass",
-            "detail": "Yahoo Finance，20 日 -7.55%"
+            "detail": "Yahoo Finance，20 日 -4.63%"
           },
           {
             "key": "institutionalPeriods",
@@ -3401,7 +3401,7 @@
             "key": "maximum20DayReturnPct",
             "label": "避免追高",
             "status": "pass",
-            "detail": "20 日 -7.55%，上限 18%",
+            "detail": "20 日 -4.63%，上限 18%",
             "rule": true
           },
           {
@@ -3422,7 +3422,7 @@
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 2952.2 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 6396.1 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
