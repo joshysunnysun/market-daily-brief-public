@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "timezone": "Asia/Taipei",
-  "session": "tw_close",
-  "generatedAt": "2026-10-21T14:59:01+08:00",
+  "session": "tw_pre",
+  "generatedAt": "2026-10-22T08:44:55+08:00",
   "disclaimer": "公開資料含延遲行情；候選須通過設定中的完整證據門檻，不構成投資建議。",
   "overview": {
     "stats": [
       {
         "label": "加權指數",
-        "value": "46,887.77",
-        "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
-        "direction": "positive"
+        "value": "46,292.93",
+        "detail": "1日 -1.13%｜5日 -4.24%｜20日 +0.01%",
+        "direction": "negative"
       },
       {
         "label": "S&P 500",
-        "value": "7,712.57",
-        "detail": "1日 +0.28%｜5日 -1.19%｜20日 -0.67%",
+        "value": "7,757.17",
+        "detail": "1日 +0.58%｜5日 +0.50%｜20日 +0.66%",
         "direction": "positive"
       },
       {
@@ -40,15 +40,15 @@
   "markets": {
     "tw": {
       "label": "台股",
-      "session": "tw_close",
-      "updatedAt": "2026-10-21T14:59:01+08:00",
+      "session": "tw_pre",
+      "updatedAt": "2026-10-22T08:44:55+08:00",
       "dataQuality": "15/15 檔有行情；正式法人完整 14 檔、融資 15 檔、借券 15 檔",
       "stats": [
         {
           "label": "加權指數",
-          "value": "46,887.77",
-          "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
-          "direction": "positive"
+          "value": "46,292.93",
+          "detail": "1日 -1.13%｜5日 -4.24%｜20日 +0.01%",
+          "direction": "negative"
         },
         {
           "label": "追蹤股漲跌家數",
@@ -85,13 +85,13 @@
         {
           "label": "融資融券",
           "value": "15/15 檔",
-          "detail": "正式餘額截點 2026-10-21",
+          "detail": "正式餘額截點 2026-10-20",
           "direction": ""
         },
         {
           "label": "借券",
           "value": "15/15 檔",
-          "detail": "正式餘額截點 2026-10-21",
+          "detail": "正式餘額截點 2026-10-20",
           "direction": ""
         }
       ],
@@ -340,26 +340,26 @@
     "us": {
       "label": "美股",
       "session": "us_close",
-      "updatedAt": "2026-10-21T14:59:01+08:00",
+      "updatedAt": "2026-10-22T08:44:55+08:00",
       "dataQuality": "5/5 檔有行情；財報 5/5 檔（SEC 0、Nasdaq 摘要 5），機構代理仍待可驗證來源",
       "stats": [
         {
           "label": "S&P 500",
-          "value": "7,712.57",
-          "detail": "1日 +0.28%｜5日 -1.19%｜20日 -0.67%",
+          "value": "7,757.17",
+          "detail": "1日 +0.58%｜5日 +0.50%｜20日 +0.66%",
           "direction": "positive"
         },
         {
           "label": "Nasdaq",
-          "value": "26,424.82",
-          "detail": "1日 -0.02%｜5日 -2.87%｜20日 -3.01%",
-          "direction": "negative"
+          "value": "26,702.86",
+          "detail": "1日 +1.05%｜5日 +0.04%｜20日 -0.87%",
+          "direction": "positive"
         },
         {
           "label": "費城半導體",
-          "value": "11,283.81",
-          "detail": "1日 -0.29%｜5日 -7.58%｜20日 -11.08%",
-          "direction": "negative"
+          "value": "11,505.56",
+          "detail": "1日 +1.97%｜5日 -1.53%｜20日 -8.21%",
+          "direction": "positive"
         }
       ],
       "signals": [
@@ -434,14 +434,14 @@
   "marketStats": [
     {
       "label": "加權指數",
-      "value": "46,887.77",
-      "detail": "1日 +1.28%｜5日 -3.57%｜20日 -0.62%",
-      "direction": "positive"
+      "value": "46,292.93",
+      "detail": "1日 -1.13%｜5日 -4.24%｜20日 +0.01%",
+      "direction": "negative"
     },
     {
       "label": "S&P 500",
-      "value": "7,712.57",
-      "detail": "1日 +0.28%｜5日 -1.19%｜20日 -0.67%",
+      "value": "7,757.17",
+      "detail": "1日 +0.58%｜5日 +0.50%｜20日 +0.66%",
       "direction": "positive"
     },
     {
@@ -594,8 +594,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 2420,
-        "volume": 23935196,
-        "volumeRatio": 1.022540639762062
+        "volume": 22321809,
+        "volumeRatio": 0.9536147878424122
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -625,9 +625,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 34401,
-        "change": 290,
+        "asOf": "2026-10-20",
+        "balance": 35330,
+        "change": 929,
         "source": "TWSE",
         "status": "available"
       },
@@ -664,7 +664,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 34,401"
+            "detail": "餘額 35,330"
           },
           {
             "key": "lending",
@@ -702,14 +702,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 +0.85%，上限 8%",
+            "detail": "單日 +2.70%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 57923.2 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 54018.8 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -747,8 +747,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 4140,
-        "volume": 9026097,
-        "volumeRatio": 1.2155226499660372
+        "volume": 8028758,
+        "volumeRatio": 1.0812134192770164
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -778,9 +778,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 11789,
-        "change": -45,
+        "asOf": "2026-10-20",
+        "balance": 11921,
+        "change": 132,
         "source": "TWSE",
         "status": "available"
       },
@@ -817,7 +817,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 11,789"
+            "detail": "餘額 11,921"
           },
           {
             "key": "lending",
@@ -855,14 +855,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -0.38%，上限 8%",
+            "detail": "單日 +1.12%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 37368.0 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 33239.1 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -900,8 +900,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 1625,
-        "volume": 11289452,
-        "volumeRatio": 1.061968468211796
+        "volume": 10525251,
+        "volumeRatio": 0.9900821299399364
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -931,9 +931,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 10390,
-        "change": -182,
+        "asOf": "2026-10-20",
+        "balance": 10630,
+        "change": 240,
         "source": "TWSE",
         "status": "available"
       },
@@ -970,7 +970,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 10,390"
+            "detail": "餘額 10,630"
           },
           {
             "key": "lending",
@@ -1008,14 +1008,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -1.72%，上限 8%",
+            "detail": "單日 +2.31%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 18345.4 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 17103.5 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1053,8 +1053,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 2010,
-        "volume": 2645879,
-        "volumeRatio": 1.01291574488937
+        "volume": 2590142,
+        "volumeRatio": 0.9915780779465888
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1084,9 +1084,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 1482,
-        "change": -35,
+        "asOf": "2026-10-20",
+        "balance": 1495,
+        "change": 13,
         "source": "TWSE",
         "status": "available"
       },
@@ -1123,7 +1123,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,482"
+            "detail": "餘額 1,495"
           },
           {
             "key": "lending",
@@ -1161,14 +1161,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -2.31%，上限 8%",
+            "detail": "單日 +0.88%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 5318.2 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 5206.2 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1214,8 +1214,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 49.20000076293945,
-        "volume": 25445956,
-        "volumeRatio": 0.8657707135537812
+        "volume": 25249686,
+        "volumeRatio": 0.8590928423058233
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1245,9 +1245,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 5734,
-        "change": 159,
+        "asOf": "2026-10-20",
+        "balance": 5744,
+        "change": 10,
         "source": "TWSE",
         "status": "available"
       },
@@ -1284,7 +1284,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 5,734"
+            "detail": "餘額 5,744"
           },
           {
             "key": "lending",
@@ -1322,14 +1322,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 +2.85%，上限 8%",
+            "detail": "單日 +0.17%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 1251.9 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 1242.3 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1366,8 +1366,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 45.400001525878906,
-        "volume": 20372624,
-        "volumeRatio": 0.8476131407083711
+        "volume": 20272301,
+        "volumeRatio": 0.8434391524624149
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -1397,9 +1397,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 5866,
-        "change": 75,
+        "asOf": "2026-10-20",
+        "balance": 5736,
+        "change": -130,
         "source": "TWSE",
         "status": "available"
       },
@@ -1436,7 +1436,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 5,866"
+            "detail": "餘額 5,736"
           },
           {
             "key": "lending",
@@ -1474,14 +1474,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 +1.30%，上限 8%",
+            "detail": "單日 -2.22%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 924.9 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 920.4 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1518,8 +1518,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 880,
-        "volume": 8859917,
-        "volumeRatio": 0.5990863239414516
+        "volume": 8513571,
+        "volumeRatio": 0.5756672386439453
       },
       "institutional": {
         "asOf": null,
@@ -1533,16 +1533,16 @@
         "status": "insufficient"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 13036,
-        "change": 225,
+        "asOf": "2026-10-20",
+        "balance": 13071,
+        "change": 35,
         "source": "TPEx",
         "status": "available"
       },
       "lending": {
-        "asOf": "2026-10-21",
-        "balance": 13516000,
-        "change": -4000,
+        "asOf": "2026-10-20",
+        "balance": 11252000,
+        "change": -2264000,
         "source": "TPEx",
         "status": "available"
       },
@@ -1572,13 +1572,13 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 13,036"
+            "detail": "餘額 13,071"
           },
           {
             "key": "lending",
             "label": "借券資料",
             "status": "pass",
-            "detail": "餘額 13,516,000"
+            "detail": "餘額 11,252,000"
           },
           {
             "key": "monthlyRevenue",
@@ -1610,14 +1610,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 +1.76%，上限 8%",
+            "detail": "單日 +0.27%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 7796.7 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 7491.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -1655,8 +1655,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 216.47000122070312,
-        "volume": 78967900,
-        "volumeRatio": 0.7569364280143133
+        "volume": 79609100,
+        "volumeRatio": 0.763082566352078
       },
       "institutional": {
         "status": "not_applicable",
@@ -1757,8 +1757,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 334.3699951171875,
-        "volume": 15845600,
-        "volumeRatio": 0.7240905798674341
+        "volume": 15951800,
+        "volumeRatio": 0.7289435623724778
       },
       "institutional": {
         "status": "not_applicable",
@@ -1827,7 +1827,7 @@
             "key": "minimumVolumeRatio",
             "label": "相對成交量",
             "status": "fail",
-            "detail": "量比 0.72，下限 1.00",
+            "detail": "量比 0.73，下限 1.00",
             "rule": true
           }
         ],
@@ -1859,8 +1859,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 896.0700073242188,
-        "volume": 20068400,
-        "volumeRatio": 0.7473657632266728
+        "volume": 20304200,
+        "volumeRatio": 0.7561471731531667
       },
       "institutional": {
         "status": "not_applicable",
@@ -1929,7 +1929,7 @@
             "key": "minimumVolumeRatio",
             "label": "相對成交量",
             "status": "fail",
-            "detail": "量比 0.75，下限 1.00",
+            "detail": "量比 0.76，下限 1.00",
             "rule": true
           }
         ],
@@ -1961,8 +1961,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 373.7099914550781,
-        "volume": 31662400,
-        "volumeRatio": 0.9155324823131433
+        "volume": 32123300,
+        "volumeRatio": 0.9288596123190218
       },
       "institutional": {
         "status": "not_applicable",
@@ -2031,7 +2031,7 @@
             "key": "minimumVolumeRatio",
             "label": "相對成交量",
             "status": "fail",
-            "detail": "量比 0.92，下限 1.00",
+            "detail": "量比 0.93，下限 1.00",
             "rule": true
           }
         ],
@@ -2063,8 +2063,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 534.739990234375,
-        "volume": 15043700,
-        "volumeRatio": 0.7504087824120307
+        "volume": 15187000,
+        "volumeRatio": 0.7575568629055027
       },
       "institutional": {
         "status": "not_applicable",
@@ -2133,7 +2133,7 @@
             "key": "minimumVolumeRatio",
             "label": "相對成交量",
             "status": "fail",
-            "detail": "量比 0.75，下限 1.00",
+            "detail": "量比 0.76，下限 1.00",
             "rule": true
           }
         ],
@@ -2173,8 +2173,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 19.600000381469727,
-        "volume": 40203403,
-        "volumeRatio": 1.0140726193599061
+        "volume": 40145485,
+        "volumeRatio": 1.0126117216849484
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2204,9 +2204,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 38935,
-        "change": -2032,
+        "asOf": "2026-10-20",
+        "balance": 38665,
+        "change": -270,
         "source": "TWSE",
         "status": "available"
       },
@@ -2243,7 +2243,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 38,935"
+            "detail": "餘額 38,665"
           },
           {
             "key": "lending",
@@ -2281,14 +2281,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -4.96%，上限 8%",
+            "detail": "單日 -0.69%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 788.0 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 786.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2335,8 +2335,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 28,
-        "volume": 11722666,
-        "volumeRatio": 0.642913129352002
+        "volume": 11598778,
+        "volumeRatio": 0.6361186662350659
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2366,9 +2366,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 1124,
-        "change": -240,
+        "asOf": "2026-10-20",
+        "balance": 1066,
+        "change": -58,
         "source": "TWSE",
         "status": "available"
       },
@@ -2405,7 +2405,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,124"
+            "detail": "餘額 1,066"
           },
           {
             "key": "lending",
@@ -2443,14 +2443,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -17.60%，上限 8%",
+            "detail": "單日 -5.16%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 328.2 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 324.8 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2497,8 +2497,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 53.599998474121094,
-        "volume": 13487228,
-        "volumeRatio": 0.594813813986752
+        "volume": 13368583,
+        "volumeRatio": 0.589581331451389
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2528,9 +2528,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 1817,
-        "change": -119,
+        "asOf": "2026-10-20",
+        "balance": 1784,
+        "change": -33,
         "source": "TWSE",
         "status": "available"
       },
@@ -2567,7 +2567,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 1,817"
+            "detail": "餘額 1,784"
           },
           {
             "key": "lending",
@@ -2605,14 +2605,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -6.15%，上限 8%",
+            "detail": "單日 -1.82%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 722.9 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 716.6 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2659,8 +2659,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 78.5,
-        "volume": 10864429,
-        "volumeRatio": 0.876286220767861
+        "volume": 10822991,
+        "volumeRatio": 0.8729439789973843
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2690,9 +2690,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 369,
-        "change": -37,
+        "asOf": "2026-10-20",
+        "balance": 372,
+        "change": 3,
         "source": "TWSE",
         "status": "available"
       },
@@ -2729,7 +2729,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 369"
+            "detail": "餘額 372"
           },
           {
             "key": "lending",
@@ -2767,14 +2767,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -9.11%，上限 8%",
+            "detail": "單日 +0.81%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 852.9 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 849.6 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2821,8 +2821,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 66.19999694824219,
-        "volume": 49507708,
-        "volumeRatio": 0.45643514211247466
+        "volume": 49205755,
+        "volumeRatio": 0.4536512935758733
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -2852,9 +2852,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 137794,
-        "change": -17,
+        "asOf": "2026-10-20",
+        "balance": 138273,
+        "change": 479,
         "source": "TWSE",
         "status": "available"
       },
@@ -2891,7 +2891,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 137,794"
+            "detail": "餘額 138,273"
           },
           {
             "key": "lending",
@@ -2929,14 +2929,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -0.01%，上限 8%",
+            "detail": "單日 +0.35%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 3277.4 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 3257.4 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -2983,8 +2983,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 128,
-        "volume": 73759992,
-        "volumeRatio": 0.466332662773108
+        "volume": 72680490,
+        "volumeRatio": 0.4595077292491334
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3014,9 +3014,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 150188,
-        "change": 230,
+        "asOf": "2026-10-20",
+        "balance": 149840,
+        "change": -348,
         "source": "TWSE",
         "status": "available"
       },
@@ -3053,7 +3053,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 150,188"
+            "detail": "餘額 149,840"
           },
           {
             "key": "lending",
@@ -3091,14 +3091,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 +0.15%，上限 8%",
+            "detail": "單日 -0.23%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 9441.3 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 9303.1 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -3145,8 +3145,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 436.5,
-        "volume": 31780106,
-        "volumeRatio": 0.6832844421976019
+        "volume": 31207301,
+        "volumeRatio": 0.6709689154679869
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3176,9 +3176,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 61033,
-        "change": -1982,
+        "asOf": "2026-10-20",
+        "balance": 60320,
+        "change": -713,
         "source": "TWSE",
         "status": "available"
       },
@@ -3215,7 +3215,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 61,033"
+            "detail": "餘額 60,320"
           },
           {
             "key": "lending",
@@ -3253,14 +3253,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -3.15%，上限 8%",
+            "detail": "單日 -1.17%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 13872.0 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 13622.0 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
@@ -3307,8 +3307,8 @@
         "source": "Yahoo Finance",
         "status": "available",
         "value": 278,
-        "volume": 23007725,
-        "volumeRatio": 0.6937351259136991
+        "volume": 22614688,
+        "volumeRatio": 0.681884168346893
       },
       "institutional": {
         "asOf": "2026-10-20",
@@ -3338,9 +3338,9 @@
         "status": "available"
       },
       "margin": {
-        "asOf": "2026-10-21",
-        "balance": 29155,
-        "change": -130,
+        "asOf": "2026-10-20",
+        "balance": 28747,
+        "change": -408,
         "source": "TWSE",
         "status": "available"
       },
@@ -3377,7 +3377,7 @@
             "key": "margin",
             "label": "融資資料",
             "status": "pass",
-            "detail": "餘額 29,155"
+            "detail": "餘額 28,747"
           },
           {
             "key": "lending",
@@ -3415,14 +3415,14 @@
             "key": "maximumMarginBalanceChangePct",
             "label": "融資餘額變化",
             "status": "pass",
-            "detail": "單日 -0.44%，上限 8%",
+            "detail": "單日 -1.40%，上限 8%",
             "rule": true
           },
           {
             "key": "minimumDailyTurnoverTwd",
             "label": "成交流動性",
             "status": "pass",
-            "detail": "當日約 6396.1 百萬元，下限 20.0 百萬元",
+            "detail": "當日約 6286.9 百萬元，下限 20.0 百萬元",
             "rule": true
           },
           {
